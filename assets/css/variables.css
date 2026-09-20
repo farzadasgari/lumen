@@ -248,3 +248,24 @@
     --shadow-xl: 0 32px 64px -16px rgb(0 0 0 / 0.66);
     color-scheme: dark;
 }
+
+:root {
+    --density: 1;
+    --row-h: 48px;
+    --control-h: 38px;
+    --card-pad: 20px;
+}
+
+[data-density="compact"] {
+    --density: 0.75;
+    --row-h: 40px;
+    --control-h: 34px;
+    --card-pad: 14px;
+}
+
+[data-density="spacious"] {
+    --density: 1.3;
+    --row-h: 60px;
+    --control-h: 44px;
+    --card-pad: 28px;
+}
