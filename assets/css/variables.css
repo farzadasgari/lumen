@@ -116,4 +116,9 @@
     --lh-snug: 1.35;
     --lh-normal: 1.55;
     --lh-relaxed: 1.7;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
 }
