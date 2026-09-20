@@ -163,3 +163,43 @@
     --z-toast: 1090;
     --z-palette: 1080;
 }
+
+:root {
+    --bg: #F5F6F8;
+    --bg-alt: #EDEFF3;
+    --surface: #FFFFFF;
+    --surface-2: #F7F8FA;
+    --surface-3: #EFF1F5;
+    --surface-inset: #F2F4F7;
+    --border: #E2E5EB;
+    --border-strong: #CDD2DB;
+    --text: #12161C;
+    --text-muted: #5C6675;
+    --text-subtle: #67717F;
+    --text-inverse: #FFFFFF;
+
+    --success: #0C7752;
+    --success-rgb: 12, 119, 82;
+    --success-soft: #E3F5EC;
+    --warning: #9E5F00;
+    --warning-rgb: 158, 95, 0;
+    --warning-soft: #FDF1DC;
+    --danger: #C62B33;
+    --danger-rgb: 198, 43, 51;
+    --danger-soft: #FCE9EA;
+    --info: #1866B0;
+    --info-rgb: 24, 102, 176;
+    --info-soft: #E5F0FB;
+    --neutral-soft: #EFF1F5;
+
+    --scrollbar-thumb: #C6CCD6;
+    --scrollbar-track: transparent;
+    --overlay: rgb(16 20 28 / 0.45);
+    --sidebar-bg: #FFFFFF;
+    --navbar-bg: rgb(255 255 255 / 0.86);
+    --chart-grid: #E7EAF0;
+    --chart-ink: #5C6675;
+    --skeleton-a: #E9ECF1;
+    --skeleton-b: #F4F6F9;
+    color-scheme: light;
+}
