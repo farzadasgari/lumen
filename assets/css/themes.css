@@ -24,3 +24,17 @@
     --primary-soft: #feecec;
     --primary-softer: #fff7f7;
 }
+
+[data-theme="crimson"][data-mode="dark"] {
+    --primary: #f3908f;
+    --primary-rgb: 243, 144, 143;
+    --primary-text: #fabbbb;
+    --primary-text-rgb: 243, 144, 143;
+    --primary-fill: #f3908f;
+    --primary-hover: #fabbbb;
+    --primary-active: #fdd9d9;
+    --primary-contrast: #10141a;
+    --primary-edge: #e53935;
+    --primary-soft: #6c4144;
+    --primary-softer: #4f3236;
+}
