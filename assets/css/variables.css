@@ -137,4 +137,11 @@
     --radius-lg: 14px;
     --radius-xl: 20px;
     --radius-pill: 999px;
+
+    --sidebar-w: 264px;
+    --sidebar-mini-w: 72px;
+    --navbar-h: 60px;
+    --content-max: 1560px;
+    --border-w: 1px;
+
 }
