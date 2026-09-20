@@ -111,4 +111,9 @@
     --fs-2xl: 1.5rem;
     --fs-3xl: 1.875rem;
     --fs-4xl: 2.375rem;
+
+    --lh-tight: 1.2;
+    --lh-snug: 1.35;
+    --lh-normal: 1.55;
+    --lh-relaxed: 1.7;
 }
