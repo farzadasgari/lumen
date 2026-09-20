@@ -38,3 +38,17 @@
     --primary-soft: #6c4144;
     --primary-softer: #4f3236;
 }
+
+[data-theme="crimson"][data-style="neon"][data-mode="dark"] {
+    --bg: #430e10;
+    --surface: #4d1417;
+    --surface-2: #581a1f;
+    --border: #824f51;
+}
+
+[data-theme="crimson"][data-style="neon"]:not([data-mode="dark"]) {
+    --bg: #fff9f9;
+    --surface: #ffffff;
+    --surface-2: #fff9f9;
+    --border: #fbe1e1;
+}
