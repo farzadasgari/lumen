@@ -149,4 +149,10 @@
     --dur-fast: 120ms;
     --dur: 200ms;
     --dur-slow: 320ms;
+
+    --shadow-xs: 0 1px 2px rgb(15 20 28 / 0.06);
+    --shadow-sm: 0 2px 4px rgb(15 20 28 / 0.06), 0 1px 2px rgb(15 20 28 / 0.04);
+    --shadow-md: 0 8px 16px -4px rgb(15 20 28 / 0.10), 0 2px 6px -2px rgb(15 20 28 / 0.06);
+    --shadow-lg: 0 18px 36px -8px rgb(15 20 28 / 0.16), 0 6px 12px -6px rgb(15 20 28 / 0.08);
+    --shadow-xl: 0 32px 64px -16px rgb(15 20 28 / 0.22);
 }
