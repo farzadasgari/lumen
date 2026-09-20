@@ -121,4 +121,14 @@
     --fw-medium: 500;
     --fw-semibold: 600;
     --fw-bold: 700;
+
+    --sp-1: 4px;
+    --sp-2: 8px;
+    --sp-3: 12px;
+    --sp-4: 16px;
+    --sp-5: 24px;
+    --sp-6: 32px;
+    --sp-7: 48px;
+    --sp-8: 64px;
+    --sp-9: 96px;
 }
