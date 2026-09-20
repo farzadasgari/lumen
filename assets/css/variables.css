@@ -131,4 +131,10 @@
     --sp-7: 48px;
     --sp-8: 64px;
     --sp-9: 96px;
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --radius-xl: 20px;
+    --radius-pill: 999px;
 }
