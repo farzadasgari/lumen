@@ -272,3 +272,30 @@
     --surface-2: #f9fdfb;
     --border: #e1f2e8;
 }
+
+:root {
+    --amber-50: #fffaf8;
+    --amber-100: #fff4ed;
+    --amber-200: #ffe9da;
+    --amber-300: #ffd7ba;
+    --amber-400: #ffbf8a;
+    --amber-500: #f59e0b;
+    --amber-600: #e1910b;
+    --amber-700: #ce840b;
+    --amber-800: #b7750b;
+    --amber-900: #a0660c;
+}
+
+[data-theme="amber"] {
+    --primary: #f59e0b;
+    --primary-rgb: 245, 158, 11;
+    --primary-text: #9c630b;
+    --primary-text-rgb: 156, 99, 11;
+    --primary-fill: #f59e0b;
+    --primary-hover: #e1910b;
+    --primary-active: #ce840b;
+    --primary-contrast: #10141a;
+    --primary-edge: #ce840b;
+    --primary-soft: #fff4ed;
+    --primary-softer: #fffaf8;
+}
