@@ -519,3 +519,17 @@
     --primary-soft: #f0f1f4;
     --primary-softer: #f9f9fa;
 }
+
+[data-theme="slate"][data-mode="dark"] {
+    --primary: #a3aab7;
+    --primary-rgb: 163, 170, 183;
+    --primary-text: #c7ccd3;
+    --primary-text-rgb: 163, 170, 183;
+    --primary-fill: #64748b;
+    --primary-hover: #a3aab7;
+    --primary-active: #c7ccd3;
+    --primary-contrast: #ffffff;
+    --primary-edge: #64748b;
+    --primary-soft: #484d54;
+    --primary-softer: #353a41;
+}
