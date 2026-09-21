@@ -354,3 +354,17 @@
     --primary-soft: #feeced;
     --primary-softer: #fff7f7;
 }
+
+[data-theme="rose"][data-mode="dark"] {
+    --primary: #f18c95;
+    --primary-rgb: 241, 140, 149;
+    --primary-text: #f8b9be;
+    --primary-text-rgb: 241, 140, 149;
+    --primary-fill: #e11d48;
+    --primary-hover: #f18c95;
+    --primary-active: #f8b9be;
+    --primary-contrast: #ffffff;
+    --primary-edge: #e11d48;
+    --primary-soft: #6b3f46;
+    --primary-softer: #4e3137;
+}
