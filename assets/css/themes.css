@@ -299,3 +299,17 @@
     --primary-soft: #fff4ed;
     --primary-softer: #fffaf8;
 }
+
+[data-theme="amber"][data-mode="dark"] {
+    --primary: #ffbf8a;
+    --primary-rgb: 255, 191, 138;
+    --primary-text: #ffd7ba;
+    --primary-text-rgb: 255, 191, 138;
+    --primary-fill: #f59e0b;
+    --primary-hover: #ffbf8a;
+    --primary-active: #ffd7ba;
+    --primary-contrast: #10141a;
+    --primary-edge: #f59e0b;
+    --primary-soft: #715642;
+    --primary-softer: #534034;
+}
