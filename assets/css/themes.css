@@ -203,3 +203,17 @@
     --primary-soft: #3e4871;
     --primary-softer: #2f3655;
 }
+
+[data-theme="navy"][data-style="neon"][data-mode="dark"] {
+    --bg: #091a46;
+    --surface: #0e2050;
+    --surface-2: #14275d;
+    --border: #4b5687;
+}
+
+[data-theme="navy"][data-style="neon"]:not([data-mode="dark"]) {
+    --bg: #f9faff;
+    --surface: #ffffff;
+    --surface-2: #f9faff;
+    --border: #e1e4fd;
+}
