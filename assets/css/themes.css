@@ -107,3 +107,30 @@
     --surface-2: #fbf9ff;
     --border: #e7e1fd;
 }
+
+:root {
+    --cyan-50: #f7fcfe;
+    --cyan-100: #ecf8fc;
+    --cyan-200: #d8f0f9;
+    --cyan-300: #b9e3f2;
+    --cyan-400: #8ad1e7;
+    --cyan-500: #06b6d4;
+    --cyan-600: #07a7c3;
+    --cyan-700: #0798b2;
+    --cyan-800: #08879e;
+    --cyan-900: #08768a;
+}
+
+[data-theme="cyan"] {
+    --primary: #06b6d4;
+    --primary-rgb: 6, 182, 212;
+    --primary-text: #08768a;
+    --primary-text-rgb: 8, 118, 138;
+    --primary-fill: #06b6d4;
+    --primary-hover: #07a7c3;
+    --primary-active: #0798b2;
+    --primary-contrast: #10141a;
+    --primary-edge: #0798b2;
+    --primary-soft: #ecf8fc;
+    --primary-softer: #f7fcfe;
+}
