@@ -134,3 +134,17 @@
     --primary-soft: #ecf8fc;
     --primary-softer: #f7fcfe;
 }
+
+[data-theme="cyan"][data-mode="dark"] {
+    --primary: #8ad1e7;
+    --primary-rgb: 138, 209, 231;
+    --primary-text: #b9e3f2;
+    --primary-text-rgb: 138, 209, 231;
+    --primary-fill: #06b6d4;
+    --primary-hover: #8ad1e7;
+    --primary-active: #b9e3f2;
+    --primary-contrast: #10141a;
+    --primary-edge: #06b6d4;
+    --primary-soft: #3d5e69;
+    --primary-softer: #2e464f;
+}
