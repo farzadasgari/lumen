@@ -244,3 +244,17 @@
     --primary-soft: #edf9f2;
     --primary-softer: #f7fcfa;
 }
+
+[data-theme="emerald"][data-mode="dark"] {
+    --primary: #8cd5b1;
+    --primary-rgb: 140, 213, 177;
+    --primary-text: #bae6cf;
+    --primary-text-rgb: 140, 213, 177;
+    --primary-fill: #10b981;
+    --primary-hover: #8cd5b1;
+    --primary-active: #bae6cf;
+    --primary-contrast: #10141a;
+    --primary-edge: #10b981;
+    --primary-soft: #3e5f52;
+    --primary-softer: #2f473f;
+}
