@@ -327,3 +327,30 @@
     --surface-2: #fffcfa;
     --border: #ffece0;
 }
+
+:root {
+    --rose-50: #fff7f7;
+    --rose-100: #feeced;
+    --rose-200: #fcd8db;
+    --rose-300: #f8b9be;
+    --rose-400: #f18c95;
+    --rose-500: #e11d48;
+    --rose-600: #cf1b42;
+    --rose-700: #bd183c;
+    --rose-800: #a81635;
+    --rose-900: #92132e;
+}
+
+[data-theme="rose"] {
+    --primary: #e11d48;
+    --primary-rgb: 225, 29, 72;
+    --primary-text: #cf1b42;
+    --primary-text-rgb: 207, 27, 66;
+    --primary-fill: #e11d48;
+    --primary-hover: #cf1b42;
+    --primary-active: #bd183c;
+    --primary-contrast: #ffffff;
+    --primary-edge: #e11d48;
+    --primary-soft: #feeced;
+    --primary-softer: #fff7f7;
+}
