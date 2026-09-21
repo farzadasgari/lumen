@@ -162,3 +162,30 @@
     --surface-2: #f9fdfe;
     --border: #e0f1f7;
 }
+
+:root {
+    --navy-50: #f7f8ff;
+    --navy-100: #ecefff;
+    --navy-200: #d8ddff;
+    --navy-300: #b9c3fd;
+    --navy-400: #8c9ff8;
+    --navy-500: #2563eb;
+    --navy-600: #225bd8;
+    --navy-700: #1f52c5;
+    --navy-800: #1b49b0;
+    --navy-900: #183f99;
+}
+
+[data-theme="navy"] {
+    --primary: #2563eb;
+    --primary-rgb: 37, 99, 235;
+    --primary-text: #225bd8;
+    --primary-text-rgb: 34, 91, 216;
+    --primary-fill: #2563eb;
+    --primary-hover: #225bd8;
+    --primary-active: #1f52c5;
+    --primary-contrast: #ffffff;
+    --primary-edge: #2563eb;
+    --primary-soft: #ecefff;
+    --primary-softer: #f7f8ff;
+}
