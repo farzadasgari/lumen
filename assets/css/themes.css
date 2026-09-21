@@ -409,3 +409,17 @@
     --primary-soft: #efefff;
     --primary-softer: #f8f8ff;
 }
+
+[data-theme="indigo"][data-mode="dark"] {
+    --primary: #9d9ffb;
+    --primary-rgb: 157, 159, 251;
+    --primary-text: #c2c3ff;
+    --primary-text-rgb: 157, 159, 251;
+    --primary-fill: #9d9ffb;
+    --primary-hover: #c2c3ff;
+    --primary-active: #dddeff;
+    --primary-contrast: #10141a;
+    --primary-edge: #6366f1;
+    --primary-soft: #464872;
+    --primary-softer: #343656;
+}
