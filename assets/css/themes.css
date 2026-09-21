@@ -258,3 +258,17 @@
     --primary-soft: #3e5f52;
     --primary-softer: #2f473f;
 }
+
+[data-theme="emerald"][data-style="neon"][data-mode="dark"] {
+    --bg: #063525;
+    --surface: #0b3d2c;
+    --surface-2: #104835;
+    --border: #4b7262;
+}
+
+[data-theme="emerald"][data-style="neon"]:not([data-mode="dark"]) {
+    --bg: #f9fdfb;
+    --surface: #ffffff;
+    --surface-2: #f9fdfb;
+    --border: #e1f2e8;
+}
