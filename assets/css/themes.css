@@ -217,3 +217,30 @@
     --surface-2: #f9faff;
     --border: #e1e4fd;
 }
+
+:root {
+    --emerald-50: #f7fcfa;
+    --emerald-100: #edf9f2;
+    --emerald-200: #d9f2e4;
+    --emerald-300: #bae6cf;
+    --emerald-400: #8cd5b1;
+    --emerald-500: #10b981;
+    --emerald-600: #0faa76;
+    --emerald-700: #0e9b6c;
+    --emerald-800: #0d8a5f;
+    --emerald-900: #0d7853;
+}
+
+[data-theme="emerald"] {
+    --primary: #10b981;
+    --primary-rgb: 16, 185, 129;
+    --primary-text: #0d7853;
+    --primary-text-rgb: 13, 120, 83;
+    --primary-fill: #10b981;
+    --primary-hover: #0faa76;
+    --primary-active: #0e9b6c;
+    --primary-contrast: #10141a;
+    --primary-edge: #0e9b6c;
+    --primary-soft: #edf9f2;
+    --primary-softer: #f7fcfa;
+}
