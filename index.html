@@ -1,11 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr"
+      data-theme="purple"
+      data-mode="light"
+      data-style="standard"
+      data-sidebar="fixed"
+      data-navbar="fixed"
+      data-layout="fluid"
+      data-density="comfortable"
+      data-bs-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lumen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Lumen Shell</title>
+    <meta name="color-scheme" content="light dark">
+
+    <link id="bs-css" rel="stylesheet" href="assets/css/bootstrap.min.css"
+          data-ltr="assets/css/bootstrap.min.css"
+          data-rtl="assets/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/themes.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="app">
+    <div class="sidebar-backdrop" data-action="toggle-sidebar" hidden></div>
+
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+
+        <div class="sidebar-brand">
+            <a class="brand-mark" href="index.html" aria-label="Home">L</a>
+            <span class="brand-text">
+                <span class="brand-name">BRAND</span>
+                <span class="brand-sub">tagline</span>
+            </span>
+        </div>
+
+        <nav class="sidebar-nav" aria-label="Sections">
+            <ul class="nav-list">
+
+                <li class="nav-section">
+                    <span class="nav-section-title">Section</span>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-item-link active" href="index.html" aria-current="page">
+                        <i class="bi bi-grid-1x2 nav-icon" aria-hidden="true"></i>
+                        <span class="nav-label">Active item</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-item-link" href="#">
+                        <i class="bi bi-circle nav-icon" aria-hidden="true"></i>
+                        <span class="nav-label">Plain item</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-item-link collapsed" data-bs-toggle="collapse"
+                       href="#nav-group" role="button"
+                       aria-expanded="false" aria-controls="nav-group">
+                        <i class="bi bi-folder nav-icon" aria-hidden="true"></i>
+                        <span class="nav-label">Parent item</span>
+                        <i class="bi bi-chevron-right nav-caret" aria-hidden="true"></i>
+                    </a>
+                    <ul class="nav-sub collapse" id="nav-group">
+                        <li><a class="nav-sub-link" href="#">Child one</a></li>
+                        <li><a class="nav-sub-link" href="#">Child two</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+            <a class="sidebar-user" href="#">
+                <span class="avatar avatar-sm avatar-primary">AB</span>
+                <span class="sidebar-user-meta">
+                    <span class="sidebar-user-name">Name</span>
+                    <span class="sidebar-user-role">Role</span>
+                </span>
+            </a>
+        </div>
+
+    </aside>
+
+    <div class="app-main">
+        <header class="navbar-top">
+
+            <button type="button" class="nav-icon-btn" data-action="toggle-sidebar"
+                    aria-label="Toggle navigation" aria-expanded="false"
+                    aria-controls="sidebar">
+                <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+
+            <nav class="app-breadcrumb d-none d-lg-block" aria-label="Breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="#">Parent</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Current</li>
+                </ol>
+            </nav>
+
+            <div class="ms-auto d-flex align-items-center gap-1">
+                <button type="button" class="nav-icon-btn" data-mode-toggle
+                        aria-label="Switch colour mode">
+                    <i class="bi bi-moon-stars" aria-hidden="true"></i>
+                </button>
+
+                <button type="button" class="nav-icon-btn" aria-label="Notifications">
+                    <i class="bi bi-bell" aria-hidden="true"></i>
+                </button>
+
+                <button type="button" class="nav-icon-btn" aria-label="Your account">
+                    <span class="avatar avatar-sm avatar-primary">FA</span>
+                </button>
+            </div>
+
+        </header>
+
+        <main class="app-content" id="main">
+
+            <div class="page-head">
+                <div class="page-head-main">
+                    <h1 class="page-title">Page title</h1>
+                    <p class="page-sub">One line describing the page.</p>
+                </div>
+                <div class="page-head-actions">
+                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                    <button type="button" class="btn btn-primary">Primary</button>
+                </div>
+            </div>
+
+            <section class="card">
+                <div class="card-body">
+                    <p class="mb-0">Content goes here.</p>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+</div>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
