@@ -1,0 +1,28 @@
+:root,
+[data-bs-theme] {
+    --bs-body-bg: var(--bg);
+    --bs-body-color: var(--text);
+    --bs-body-font-family: var(--font-sans);
+    --bs-body-font-size: var(--fs-base);
+    --bs-body-line-height: var(--lh-normal);
+    --bs-emphasis-color: var(--text);
+    --bs-secondary-color: var(--text-muted);
+    --bs-tertiary-color: var(--text-subtle);
+    --bs-border-color: var(--border);
+    --bs-border-color-translucent: var(--border);
+    --bs-border-radius: var(--radius-md);
+    --bs-border-radius-sm: var(--radius-sm);
+    --bs-border-radius-lg: var(--radius-lg);
+    --bs-border-radius-xl: var(--radius-xl);
+    --bs-primary: var(--primary);
+    --bs-primary-rgb: var(--primary-rgb);
+    --bs-link-color: var(--primary-text);
+    --bs-link-color-rgb: var(--primary-text-rgb);
+    --bs-link-hover-color: var(--primary-hover);
+    --bs-code-color: var(--primary-text);
+    --bs-secondary-bg: var(--surface-2);
+    --bs-tertiary-bg: var(--surface-3);
+    --bs-highlight-bg: var(--primary-soft);
+    --bs-heading-color: var(--text);
+    --bs-font-monospace: var(--font-mono);
+}
