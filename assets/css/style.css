@@ -496,3 +496,11 @@ pre code {
     font-size: var(--fs-2xs);
     color: var(--text-muted);
 }
+
+.sidebar-nav {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: var(--sp-2) 12px var(--sp-4);
+    overscroll-behavior: contain;
+}
