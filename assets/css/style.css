@@ -409,3 +409,18 @@ pre code {
     color: var(--text);
     text-decoration: none;
 }
+
+.brand-mark {
+    flex: 0 0 auto;
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: var(--radius-md);
+    background: var(--primary-fill);
+    color: var(--primary-contrast);
+    font-family: var(--font-mono);
+    font-weight: var(--fw-semibold);
+    font-size: 15px;
+    letter-spacing: -0.04em;
+}
