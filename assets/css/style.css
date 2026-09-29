@@ -338,3 +338,20 @@ pre code {
 [data-layout="fluid"] .app-content {
     max-width: none;
 }
+
+[data-sidebar="mini"] .app-main,
+[data-sidebar="hover"] .app-main {
+    padding-inline-start: var(--sidebar-mini-w);
+}
+
+[data-sidebar="collapsed"] .app-main {
+    padding-inline-start: 0;
+}
+
+[data-sidebar="none"] .app-main {
+    padding-inline-start: 0;
+}
+
+[data-navbar="static"] .app-main {
+    padding-top: 0;
+}
