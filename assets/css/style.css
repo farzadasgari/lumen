@@ -662,3 +662,15 @@ pre code {
     color: var(--text-muted);
     transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
 }
+
+.nav-sub-link:hover {
+    background: var(--surface-2);
+    color: var(--text);
+    text-decoration: none;
+}
+
+.nav-sub-link.active {
+    color: var(--primary-text);
+    font-weight: var(--fw-semibold);
+    background: var(--primary-softer);
+}
