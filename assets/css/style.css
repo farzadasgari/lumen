@@ -137,3 +137,9 @@
     --bs-backdrop-bg: var(--overlay);
     --bs-backdrop-opacity: 1;
 }
+
+.card {
+    --bs-card-bg: var(--surface);
+    --bs-card-color: var(--text);
+    --bs-card-border-color: var(--border);
+}
