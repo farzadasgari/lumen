@@ -28,38 +28,44 @@
 }
 
 .dropdown-menu, .modal-content, .offcanvas, .toast, .popover, .accordion {
-  --bs-dropdown-bg: var(--surface);
-  --bs-dropdown-color: var(--text);
-  --bs-dropdown-border-color: var(--border);
-  --bs-dropdown-link-color: var(--text);
-  --bs-dropdown-link-hover-bg: var(--surface-2);
-  --bs-dropdown-link-hover-color: var(--text);
-  --bs-dropdown-link-active-bg: var(--primary-soft);
-  --bs-dropdown-link-active-color: var(--primary-text);
-  --bs-dropdown-header-color: var(--text-subtle);
-  --bs-modal-bg: var(--surface);
-  --bs-modal-color: var(--text);
-  --bs-modal-border-color: var(--border);
-  --bs-modal-header-border-color: var(--border);
-  --bs-modal-footer-border-color: var(--border);
-  --bs-offcanvas-bg: var(--surface);
-  --bs-offcanvas-color: var(--text);
-  --bs-offcanvas-border-color: var(--border);
-  --bs-toast-bg: var(--surface);
-  --bs-toast-color: var(--text);
-  --bs-toast-border-color: var(--border);
-  --bs-toast-header-bg: var(--surface);
-  --bs-toast-header-color: var(--text);
-  --bs-popover-bg: var(--surface);
-  --bs-popover-border-color: var(--border);
-  --bs-popover-header-bg: var(--surface-2);
-  --bs-popover-header-color: var(--text);
-  --bs-popover-body-color: var(--text-muted);
-  --bs-accordion-bg: var(--surface);
-  --bs-accordion-color: var(--text);
-  --bs-accordion-border-color: var(--border);
-  --bs-accordion-btn-color: var(--text);
-  --bs-accordion-active-bg: var(--primary-soft);
-  --bs-accordion-active-color: var(--primary-text);
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 3px rgb(var(--primary-rgb) / 0.25);
+    --bs-dropdown-bg: var(--surface);
+    --bs-dropdown-color: var(--text);
+    --bs-dropdown-border-color: var(--border);
+    --bs-dropdown-link-color: var(--text);
+    --bs-dropdown-link-hover-bg: var(--surface-2);
+    --bs-dropdown-link-hover-color: var(--text);
+    --bs-dropdown-link-active-bg: var(--primary-soft);
+    --bs-dropdown-link-active-color: var(--primary-text);
+    --bs-dropdown-header-color: var(--text-subtle);
+    --bs-modal-bg: var(--surface);
+    --bs-modal-color: var(--text);
+    --bs-modal-border-color: var(--border);
+    --bs-modal-header-border-color: var(--border);
+    --bs-modal-footer-border-color: var(--border);
+    --bs-offcanvas-bg: var(--surface);
+    --bs-offcanvas-color: var(--text);
+    --bs-offcanvas-border-color: var(--border);
+    --bs-toast-bg: var(--surface);
+    --bs-toast-color: var(--text);
+    --bs-toast-border-color: var(--border);
+    --bs-toast-header-bg: var(--surface);
+    --bs-toast-header-color: var(--text);
+    --bs-popover-bg: var(--surface);
+    --bs-popover-border-color: var(--border);
+    --bs-popover-header-bg: var(--surface-2);
+    --bs-popover-header-color: var(--text);
+    --bs-popover-body-color: var(--text-muted);
+    --bs-accordion-bg: var(--surface);
+    --bs-accordion-color: var(--text);
+    --bs-accordion-border-color: var(--border);
+    --bs-accordion-btn-color: var(--text);
+    --bs-accordion-active-bg: var(--primary-soft);
+    --bs-accordion-active-color: var(--primary-text);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 3px rgb(var(--primary-rgb) / 0.25);
+}
+
+.tooltip {
+    --bs-tooltip-bg: var(--text);
+    --bs-tooltip-color: var(--surface);
+    --bs-tooltip-opacity: 1;
 }
