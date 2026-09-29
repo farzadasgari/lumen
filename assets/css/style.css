@@ -705,3 +705,11 @@ pre code {
     line-height: 1.25;
     overflow: hidden;
 }
+
+.sidebar-user-name {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
