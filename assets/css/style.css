@@ -127,3 +127,8 @@
     --bs-table-active-bg: var(--primary-soft);
     --bs-table-active-color: var(--text);
 }
+
+.breadcrumb {
+    --bs-breadcrumb-divider-color: var(--text-subtle);
+    --bs-breadcrumb-item-active-color: var(--text);
+}
