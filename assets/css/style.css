@@ -431,3 +431,9 @@ pre code {
     line-height: 1.15;
     min-width: 0;
 }
+
+.brand-name {
+    font-weight: var(--fw-semibold);
+    font-size: 1.0625rem;
+    letter-spacing: -0.02em;
+}
