@@ -650,3 +650,15 @@ pre code {
     width: 1px;
     background: var(--border);
 }
+
+.nav-sub-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding: 5px 10px;
+    border-radius: var(--radius-sm);
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
+    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
