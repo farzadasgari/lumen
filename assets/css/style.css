@@ -713,3 +713,11 @@ pre code {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.sidebar-user-role {
+    font-size: var(--fs-2xs);
+    color: var(--text-subtle);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
