@@ -774,3 +774,21 @@ pre code {
     justify-content: center;
     padding-inline: 0;
 }
+
+.navbar-top {
+    position: fixed;
+    top: 0;
+    inset-inline: 0;
+    height: var(--navbar-h);
+    z-index: var(--z-navbar);
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    padding-inline: var(--sp-4);
+    padding-inline-start: calc(var(--sidebar-w) + var(--sp-4));
+    background: var(--navbar-bg);
+    backdrop-filter: saturate(180%) blur(14px);
+    -webkit-backdrop-filter: saturate(180%) blur(14px);
+    border-block-end: var(--border-w) solid var(--border);
+    transition: padding-inline-start var(--dur-slow) var(--ease);
+}
