@@ -241,3 +241,15 @@ pre code {
     background: rgb(var(--primary-rgb) / 0.24);
     color: var(--text);
 }
+
+:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+}
+
+.btn:focus-visible, .form-control:focus-visible, .form-select:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+    box-shadow: none;
+}
