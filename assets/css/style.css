@@ -491,3 +491,8 @@ pre code {
     font-size: var(--fs-sm);
     font-weight: var(--fw-medium);
 }
+
+.workspace-plan {
+    font-size: var(--fs-2xs);
+    color: var(--text-muted);
+}
