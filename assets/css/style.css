@@ -504,3 +504,19 @@ pre code {
     padding: var(--sp-2) 12px var(--sp-4);
     overscroll-behavior: contain;
 }
+
+.nav-section {
+    margin-block-start: var(--sp-4);
+}
+
+.nav-section:first-child {
+    margin-block-start: 0;
+}
+
+.nav-section-title {
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-semibold);
+    color: var(--text-subtle);
+    padding: 0 10px var(--sp-2);
+    letter-spacing: 0.02em;
+}
