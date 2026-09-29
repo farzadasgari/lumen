@@ -448,3 +448,17 @@ pre code {
     margin: var(--sp-3) 12px;
     flex: 0 0 auto;
 }
+
+.workspace-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface-2);
+    color: var(--text);
+    text-align: start;
+    transition: background var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
+}
