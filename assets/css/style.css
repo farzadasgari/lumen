@@ -520,3 +520,12 @@ pre code {
     padding: 0 10px var(--sp-2);
     letter-spacing: 0.02em;
 }
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
