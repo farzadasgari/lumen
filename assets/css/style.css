@@ -81,3 +81,21 @@
     --bs-nav-pills-link-active-bg: var(--primary-fill);
     --bs-nav-pills-link-active-color: var(--primary-contrast);
 }
+
+.pagination {
+    --bs-pagination-bg: var(--surface);
+    --bs-pagination-color: var(--text-muted);
+    --bs-pagination-border-color: var(--border);
+    --bs-pagination-hover-bg: var(--surface-2);
+    --bs-pagination-hover-color: var(--text);
+    --bs-pagination-hover-border-color: var(--border);
+    --bs-pagination-active-bg: var(--primary-fill);
+    --bs-pagination-active-border-color: var(--primary-fill);
+    --bs-pagination-active-color: var(--primary-contrast);
+    --bs-pagination-disabled-bg: var(--surface-2);
+    --bs-pagination-disabled-color: var(--text-subtle);
+    --bs-pagination-disabled-border-color: var(--border);
+    --bs-pagination-focus-bg: var(--surface-2);
+    --bs-pagination-focus-color: var(--text);
+    --bs-pagination-focus-box-shadow: 0 0 0 3px rgb(var(--primary-rgb) / 0.25);
+}
