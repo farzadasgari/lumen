@@ -792,3 +792,13 @@ pre code {
     border-block-end: var(--border-w) solid var(--border);
     transition: padding-inline-start var(--dur-slow) var(--ease);
 }
+
+[data-sidebar="mini"] .navbar-top,
+[data-sidebar="hover"] .navbar-top {
+    padding-inline-start: calc(var(--sidebar-mini-w) + var(--sp-4));
+}
+
+[data-sidebar="collapsed"] .navbar-top,
+[data-sidebar="none"] .navbar-top {
+    padding-inline-start: var(--sp-4);
+}
