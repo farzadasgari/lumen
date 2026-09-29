@@ -674,3 +674,9 @@ pre code {
     font-weight: var(--fw-semibold);
     background: var(--primary-softer);
 }
+
+.sidebar-footer {
+    flex: 0 0 auto;
+    padding: var(--sp-3) 12px;
+    border-block-start: var(--border-w) solid var(--border);
+}
