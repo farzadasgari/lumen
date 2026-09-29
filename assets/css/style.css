@@ -355,3 +355,16 @@ pre code {
 [data-navbar="static"] .app-main {
     padding-top: 0;
 }
+
+.sidebar {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-start: 0;
+    width: var(--sidebar-w);
+    z-index: var(--z-sidebar);
+    background: var(--sidebar-bg);
+    border-inline-end: var(--border-w) solid var(--border);
+    display: flex;
+    flex-direction: column;
+    transition: width var(--dur-slow) var(--ease), transform var(--dur-slow) var(--ease);
+}
