@@ -529,3 +529,18 @@ pre code {
     flex-direction: column;
     gap: 2px;
 }
+
+.nav-item-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 38px;
+    padding: 7px 10px;
+    border-radius: var(--radius-md);
+    color: var(--text-muted);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+    white-space: nowrap;
+}
