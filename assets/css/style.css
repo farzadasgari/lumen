@@ -299,3 +299,28 @@ pre code {
     color: var(--primary-contrast);
     text-decoration: none;
 }
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-main {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding-inline-start: var(--sidebar-w);
+    padding-top: var(--navbar-h);
+    display: flex;
+    flex-direction: column;
+    transition: padding-inline-start var(--dur-slow) var(--ease);
+}
+
+.app-content {
+    --content-inset: var(--sp-5);
+    flex: 1 1 auto;
+    width: 100%;
+    padding: var(--content-inset) var(--content-inset) var(--sp-6);
+    max-width: var(--content-max);
+    margin-inline: auto;
+}
