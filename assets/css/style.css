@@ -467,3 +467,16 @@ pre code {
     background: var(--surface-3);
     border-color: var(--border-strong);
 }
+
+.workspace-avatar {
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    border-radius: var(--radius-sm);
+    display: grid;
+    place-items: center;
+    background: var(--primary-soft);
+    color: var(--primary-text);
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-bold);
+}
