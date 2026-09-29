@@ -115,3 +115,15 @@
     --bs-list-group-active-border-color: var(--primary-fill);
     --bs-list-group-active-color: var(--primary-contrast);
 }
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-color: var(--text);
+    --bs-table-border-color: var(--border);
+    --bs-table-striped-bg: var(--surface-2);
+    --bs-table-striped-color: var(--text);
+    --bs-table-hover-bg: var(--surface-2);
+    --bs-table-hover-color: var(--text);
+    --bs-table-active-bg: var(--primary-soft);
+    --bs-table-active-color: var(--text);
+}
