@@ -598,3 +598,13 @@ pre code {
     color: var(--text-muted);
     font-family: var(--font-mono);
 }
+
+.nav-badge.is-accent {
+    background: var(--primary-soft);
+    color: var(--primary-text);
+}
+
+.nav-badge.is-danger {
+    background: var(--danger-soft);
+    color: var(--danger);
+}
