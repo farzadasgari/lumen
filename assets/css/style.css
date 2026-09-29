@@ -564,3 +564,26 @@ pre code {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.nav-item-link.active {
+    background: var(--primary-soft);
+    color: var(--primary-text);
+    font-weight: var(--fw-semibold);
+}
+
+.nav-item-link.active::before {
+    content: '';
+    position: absolute;
+    inset-inline-start: -12px;
+    top: 50%;
+    translate: 0 -50%;
+    width: 3px;
+    height: 20px;
+    border-start-end-radius: var(--radius-sm);
+    border-end-end-radius: var(--radius-sm);
+    background: var(--primary);
+}
+
+.nav-item-link.active > i:first-child {
+    color: var(--primary);
+}
