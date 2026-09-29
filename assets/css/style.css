@@ -99,3 +99,8 @@
     --bs-pagination-focus-color: var(--text);
     --bs-pagination-focus-box-shadow: 0 0 0 3px rgb(var(--primary-rgb) / 0.25);
 }
+
+.progress {
+    --bs-progress-bg: var(--surface-3);
+    --bs-progress-bar-bg: var(--primary-fill);
+}
