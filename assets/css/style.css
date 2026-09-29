@@ -615,3 +615,15 @@ pre code {
     transition: rotate var(--dur) var(--ease);
     color: var(--text-subtle);
 }
+
+.nav-item-link[aria-expanded="true"] .nav-caret {
+    rotate: 90deg;
+}
+
+[dir="rtl"] .nav-caret {
+    scale: -1 1;
+}
+
+[dir="rtl"] .nav-item-link[aria-expanded="true"] .nav-caret {
+    rotate: -90deg;
+}
