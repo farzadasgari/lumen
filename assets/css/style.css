@@ -143,3 +143,24 @@
     --bs-card-color: var(--text);
     --bs-card-border-color: var(--border);
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: var(--font-sans);
+    font-size: var(--fs-base);
+    line-height: var(--lh-normal);
+    color: var(--text);
+    background-color: var(--bg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    min-height: 100vh;
+    transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease);
+}
