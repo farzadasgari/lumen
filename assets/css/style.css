@@ -437,3 +437,9 @@ pre code {
     font-size: 1.0625rem;
     letter-spacing: -0.02em;
 }
+
+.brand-sub {
+    font-size: var(--fs-2xs);
+    color: var(--text-subtle);
+    font-family: var(--font-mono);
+}
