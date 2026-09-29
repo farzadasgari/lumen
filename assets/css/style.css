@@ -462,3 +462,8 @@ pre code {
     text-align: start;
     transition: background var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
 }
+
+.workspace-btn:hover {
+    background: var(--surface-3);
+    border-color: var(--border-strong);
+}
