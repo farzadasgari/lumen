@@ -608,3 +608,10 @@ pre code {
     background: var(--danger-soft);
     color: var(--danger);
 }
+
+.nav-caret {
+    flex: 0 0 auto;
+    font-size: 0.75rem;
+    transition: rotate var(--dur) var(--ease);
+    color: var(--text-subtle);
+}
