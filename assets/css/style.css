@@ -544,3 +544,16 @@ pre code {
     transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
     white-space: nowrap;
 }
+
+.nav-item-link:hover {
+    background: var(--surface-2);
+    color: var(--text);
+    text-decoration: none;
+}
+
+.nav-item-link > i:first-child {
+    flex: 0 0 20px;
+    font-size: 1.0625rem;
+    line-height: 1;
+    text-align: center;
+}
