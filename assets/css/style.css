@@ -213,3 +213,31 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 2px;
 }
+
+hr {
+    border-color: var(--border);
+    opacity: 1;
+}
+
+code, kbd, pre, samp {
+    font-family: var(--font-mono);
+}
+
+code {
+    font-size: 0.9em;
+    color: var(--primary-text);
+    background: var(--primary-softer);
+    padding: 0.1em 0.36em;
+    border-radius: var(--radius-sm);
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+}
+
+::selection {
+    background: rgb(var(--primary-rgb) / 0.24);
+    color: var(--text);
+}
