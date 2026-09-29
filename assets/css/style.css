@@ -680,3 +680,21 @@ pre code {
     padding: var(--sp-3) 12px;
     border-block-start: var(--border-w) solid var(--border);
 }
+
+.sidebar-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 7px 8px;
+    border-radius: var(--radius-md);
+    border: none;
+    background: transparent;
+    color: var(--text);
+    text-align: start;
+    transition: background var(--dur-fast) var(--ease);
+}
+
+.sidebar-user:hover {
+    background: var(--surface-2);
+}
