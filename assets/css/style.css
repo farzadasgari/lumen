@@ -587,3 +587,14 @@ pre code {
 .nav-item-link.active > i:first-child {
     color: var(--primary);
 }
+
+.nav-badge {
+    flex: 0 0 auto;
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-semibold);
+    padding: 1px 7px;
+    border-radius: var(--radius-pill);
+    background: var(--surface-3);
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+}
