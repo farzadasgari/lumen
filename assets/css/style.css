@@ -324,3 +324,17 @@ pre code {
     max-width: var(--content-max);
     margin-inline: auto;
 }
+
+[data-layout="boxed"] .app-content {
+    max-width: 1280px;
+}
+
+[data-layout="compact"] .app-content {
+    --content-inset: var(--sp-4);
+    padding: var(--content-inset) var(--content-inset) var(--sp-5);
+    max-width: 1400px;
+}
+
+[data-layout="fluid"] .app-content {
+    max-width: none;
+}
