@@ -486,3 +486,8 @@ pre code {
     flex: 1 1 auto;
     line-height: 1.2;
 }
+
+.workspace-name {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+}
