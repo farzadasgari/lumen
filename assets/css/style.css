@@ -368,3 +368,26 @@ pre code {
     flex-direction: column;
     transition: width var(--dur-slow) var(--ease), transform var(--dur-slow) var(--ease);
 }
+
+[data-sidebar="mini"] .sidebar,
+[data-sidebar="hover"] .sidebar {
+    width: var(--sidebar-mini-w);
+}
+
+[data-sidebar="collapsed"] .sidebar {
+    transform: translateX(-100%);
+}
+
+[dir="rtl"][data-sidebar="collapsed"] .sidebar {
+    transform: translateX(100%);
+}
+
+[data-sidebar="none"] .sidebar {
+    display: none;
+}
+
+[data-sidebar="hover"] .sidebar:hover,
+[data-sidebar="hover"] .sidebar:focus-within {
+    width: var(--sidebar-w);
+    box-shadow: var(--shadow-lg);
+}
