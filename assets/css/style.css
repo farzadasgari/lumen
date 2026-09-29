@@ -391,3 +391,21 @@ pre code {
     width: var(--sidebar-w);
     box-shadow: var(--shadow-lg);
 }
+
+
+.sidebar-brand {
+    height: var(--navbar-h);
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    padding-inline: 18px;
+    border-block-end: var(--border-w) solid var(--border);
+    color: var(--text);
+    overflow: hidden;
+}
+
+.sidebar-brand:hover {
+    color: var(--text);
+    text-decoration: none;
+}
