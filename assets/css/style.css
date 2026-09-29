@@ -831,3 +831,28 @@ pre code {
 [data-navbar="floating"] .app-main {
     padding-top: calc(54px + var(--sp-5));
 }
+
+.nav-icon-btn {
+    flex: 0 0 auto;
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border: none;
+    background: transparent;
+    border-radius: var(--radius-md);
+    color: var(--text-muted);
+    font-size: 1.125rem;
+    position: relative;
+    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
+
+.nav-icon-btn:hover {
+    background: var(--surface-2);
+    color: var(--text);
+}
+
+.nav-icon-btn[aria-expanded="true"] {
+    background: var(--surface-3);
+    color: var(--text);
+}
