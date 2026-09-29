@@ -802,3 +802,32 @@ pre code {
 [data-sidebar="none"] .navbar-top {
     padding-inline-start: var(--sp-4);
 }
+
+[data-navbar="static"] .navbar-top {
+    position: sticky;
+}
+
+[data-navbar="floating"] .navbar-top {
+    inset-inline: var(--sp-4);
+    inset-inline-start: calc(var(--sidebar-w) + var(--sp-4));
+    top: var(--sp-3);
+    height: 54px;
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    padding-inline: var(--sp-3);
+}
+
+[data-navbar="floating"][data-sidebar="mini"] .navbar-top,
+[data-navbar="floating"][data-sidebar="hover"] .navbar-top {
+    inset-inline-start: calc(var(--sidebar-mini-w) + var(--sp-4));
+}
+
+[data-navbar="floating"][data-sidebar="collapsed"] .navbar-top,
+[data-navbar="floating"][data-sidebar="none"] .navbar-top {
+    inset-inline-start: var(--sp-4);
+}
+
+[data-navbar="floating"] .app-main {
+    padding-top: calc(54px + var(--sp-5));
+}
