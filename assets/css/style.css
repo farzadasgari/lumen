@@ -104,3 +104,14 @@
     --bs-progress-bg: var(--surface-3);
     --bs-progress-bar-bg: var(--primary-fill);
 }
+
+.list-group {
+    --bs-list-group-bg: var(--surface);
+    --bs-list-group-color: var(--text);
+    --bs-list-group-border-color: var(--border);
+    --bs-list-group-action-hover-bg: var(--surface-2);
+    --bs-list-group-action-hover-color: var(--text);
+    --bs-list-group-active-bg: var(--primary-fill);
+    --bs-list-group-active-border-color: var(--primary-fill);
+    --bs-list-group-active-color: var(--primary-contrast);
+}
