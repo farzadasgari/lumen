@@ -721,3 +721,56 @@ pre code {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.sidebar-mini-only {
+    display: none;
+}
+
+[data-sidebar="mini"] .sidebar .brand-text,
+[data-sidebar="mini"] .sidebar .nav-label,
+[data-sidebar="mini"] .sidebar .nav-badge,
+[data-sidebar="mini"] .sidebar .nav-caret,
+[data-sidebar="mini"] .sidebar .nav-section-title,
+[data-sidebar="mini"] .sidebar .workspace-meta,
+[data-sidebar="mini"] .sidebar .sidebar-user-meta,
+[data-sidebar="mini"] .sidebar .nav-sub,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .brand-text,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .nav-label,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .nav-badge,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .nav-caret,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .nav-section-title,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .workspace-meta,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .sidebar-user-meta,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .nav-sub {
+    display: none;
+}
+
+[data-sidebar="mini"] .sidebar .nav-item-link,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .nav-item-link {
+    justify-content: center;
+    padding-inline: 0;
+}
+
+[data-sidebar="mini"] .sidebar .nav-section,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .nav-section {
+    margin-block-start: var(--sp-3);
+    padding-block-start: var(--sp-3);
+    border-block-start: var(--border-w) solid var(--border);
+}
+
+[data-sidebar="mini"] .sidebar .nav-section:first-child,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .nav-section:first-child {
+    margin-block-start: 0;
+    padding-block-start: 0;
+    border-block-start: none;
+}
+
+[data-sidebar="mini"] .sidebar-brand,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .sidebar-brand,
+[data-sidebar="mini"] .workspace-btn,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .workspace-btn,
+[data-sidebar="mini"] .sidebar-user,
+[data-sidebar="hover"] .sidebar:not(:hover):not(:focus-within) .sidebar-user {
+    justify-content: center;
+    padding-inline: 0;
+}
