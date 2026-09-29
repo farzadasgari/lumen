@@ -424,3 +424,10 @@ pre code {
     font-size: 15px;
     letter-spacing: -0.04em;
 }
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+    min-width: 0;
+}
