@@ -132,3 +132,8 @@
     --bs-breadcrumb-divider-color: var(--text-subtle);
     --bs-breadcrumb-item-active-color: var(--text);
 }
+
+.modal-backdrop, .offcanvas-backdrop {
+    --bs-backdrop-bg: var(--overlay);
+    --bs-backdrop-opacity: 1;
+}
