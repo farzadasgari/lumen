@@ -480,3 +480,9 @@ pre code {
     font-size: var(--fs-2xs);
     font-weight: var(--fw-bold);
 }
+
+.workspace-meta {
+    min-width: 0;
+    flex: 1 1 auto;
+    line-height: 1.2;
+}
