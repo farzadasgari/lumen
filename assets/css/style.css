@@ -280,3 +280,22 @@ pre code {
     background-clip: content-box;
     border: 3px solid transparent;
 }
+
+.skip-link {
+    position: fixed;
+    inset-inline-start: var(--sp-4);
+    top: -100px;
+    z-index: 2000;
+    padding: var(--sp-3) var(--sp-4);
+    background: var(--primary-fill);
+    color: var(--primary-contrast);
+    border-radius: var(--radius-md);
+    font-weight: var(--fw-semibold);
+    transition: top var(--dur) var(--ease);
+}
+
+.skip-link:focus {
+    top: var(--sp-4);
+    color: var(--primary-contrast);
+    text-decoration: none;
+}
