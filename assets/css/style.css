@@ -164,3 +164,9 @@ body {
     min-height: 100vh;
     transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease);
 }
+
+.theme-transition, .theme-transition * {
+    transition: background-color var(--dur-slow) var(--ease),
+    border-color var(--dur-slow) var(--ease),
+    color var(--dur-slow) var(--ease) !important;
+}
