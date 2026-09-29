@@ -69,3 +69,15 @@
     --bs-tooltip-color: var(--surface);
     --bs-tooltip-opacity: 1;
 }
+
+.nav, .nav-tabs, .nav-pills {
+    --bs-nav-link-color: var(--text-muted);
+    --bs-nav-link-hover-color: var(--text);
+    --bs-nav-tabs-border-color: var(--border);
+    --bs-nav-tabs-link-active-bg: var(--surface);
+    --bs-nav-tabs-link-active-color: var(--primary-text);
+    --bs-nav-tabs-link-active-border-color: var(--border) var(--border) var(--surface);
+    --bs-nav-tabs-link-hover-border-color: var(--border);
+    --bs-nav-pills-link-active-bg: var(--primary-fill);
+    --bs-nav-pills-link-active-color: var(--primary-contrast);
+}
