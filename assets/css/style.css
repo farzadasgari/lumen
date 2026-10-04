@@ -968,3 +968,12 @@ pre code {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
 }
+
+.panel-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sp-3);
+    padding: var(--sp-3) var(--sp-4);
+    border-block-end: var(--border-w) solid var(--border);
+}
