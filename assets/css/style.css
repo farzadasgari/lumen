@@ -958,3 +958,13 @@ pre code {
     color: var(--text);
     font-weight: var(--fw-medium);
 }
+
+.panel-menu {
+    width: 360px;
+    max-width: calc(100vw - 24px);
+    padding: 0;
+    overflow: hidden;
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+}
