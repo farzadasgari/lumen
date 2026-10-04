@@ -927,3 +927,34 @@ pre code {
     line-height: 1.4;
     white-space: nowrap;
 }
+
+.app-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: var(--fs-md);
+    min-width: 0;
+}
+
+.app-breadcrumb a {
+    color: var(--text-muted);
+}
+
+.app-breadcrumb a:hover {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.app-breadcrumb .sep {
+    color: var(--text-subtle);
+    font-size: 0.75rem;
+}
+
+[dir="rtl"] .app-breadcrumb .sep {
+    scale: -1 1;
+}
+
+.app-breadcrumb .current {
+    color: var(--text);
+    font-weight: var(--fw-medium);
+}
