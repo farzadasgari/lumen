@@ -995,3 +995,13 @@ pre code {
     background: var(--surface-2);
     text-align: center;
 }
+
+.panel-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 11px var(--sp-4);
+    border-block-end: var(--border-w) solid var(--border);
+    color: var(--text);
+    transition: background var(--dur-fast) var(--ease);
+}
