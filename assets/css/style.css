@@ -885,3 +885,20 @@ pre code {
     color: #fff;
     line-height: 1;
 }
+
+.search-trigger {
+    flex: 1 1 auto;
+    max-width: 340px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 38px;
+    padding: 0 10px;
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface-2);
+    color: var(--text-muted);
+    font-size: var(--fs-md);
+    text-align: start;
+    transition: var(--dur-fast) var(--ease);
+}
