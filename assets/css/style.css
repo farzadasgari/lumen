@@ -902,3 +902,8 @@ pre code {
     text-align: start;
     transition: var(--dur-fast) var(--ease);
 }
+
+.search-trigger:hover {
+    border-color: var(--border-strong);
+    background: var(--surface);
+}
