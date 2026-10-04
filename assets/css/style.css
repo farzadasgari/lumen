@@ -977,3 +977,9 @@ pre code {
     padding: var(--sp-3) var(--sp-4);
     border-block-end: var(--border-w) solid var(--border);
 }
+
+.panel-head h6 {
+    margin: 0;
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semibold);
+}
