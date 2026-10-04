@@ -1005,3 +1005,36 @@ pre code {
     color: var(--text);
     transition: background var(--dur-fast) var(--ease);
 }
+
+.panel-item:last-child {
+    border-block-end: none;
+}
+
+.panel-item:hover {
+    background: var(--surface-2);
+    color: var(--text);
+    text-decoration: none;
+}
+
+.panel-item.is-unread {
+    background: var(--primary-softer);
+}
+
+.panel-item-title {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+    line-height: 1.35;
+}
+
+.panel-item-text {
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+.panel-item-time {
+    font-size: var(--fs-2xs);
+    color: var(--text-subtle);
+    font-family: var(--font-mono);
+    white-space: nowrap;
+}
