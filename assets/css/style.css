@@ -1911,3 +1911,11 @@ textarea.form-control {
     font-family: var(--font-mono);
     letter-spacing: 0.01em;
 }
+
+.input-group-text {
+    background: var(--surface-2);
+    border: var(--border-w) solid var(--border-strong);
+    color: var(--text-muted);
+    font-size: var(--fs-md);
+    border-radius: var(--radius-md);
+}
