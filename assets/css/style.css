@@ -1637,3 +1637,35 @@ canvas[data-spark] {
     font-family: var(--font-mono);
     font-variant-numeric: tabular-nums;
 }
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 28px;
+    padding: 0 10px;
+    border-radius: var(--radius-pill);
+    border: var(--border-w) solid var(--border);
+    background: var(--surface-2);
+    font-size: var(--fs-sm);
+    color: var(--text);
+}
+
+.chip .chip-x {
+    border: none;
+    background: none;
+    padding: 0;
+    color: var(--text-subtle);
+    line-height: 1;
+    font-size: 1rem;
+}
+
+.chip .chip-x:hover {
+    color: var(--danger);
+}
+
+.chip-active {
+    background: var(--primary-soft);
+    border-color: var(--primary-edge);
+    color: var(--primary-text);
+}
