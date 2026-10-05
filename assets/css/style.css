@@ -2182,3 +2182,19 @@ textarea.form-control {
 .dropzone.is-over i {
     color: var(--primary);
 }
+
+.color-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.color-field input[type="color"] {
+    width: 44px;
+    height: var(--control-h);
+    padding: 3px;
+    cursor: pointer;
+    border: var(--border-w) solid var(--border-strong);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+}
