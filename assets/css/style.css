@@ -1057,3 +1057,15 @@ pre code {
     min-height: 56px;
     flex-wrap: wrap;
 }
+
+.card-header h1, .card-header h2, .card-header h3,
+.card-header h4, .card-header h5, .card-header h6 {
+    margin: 0;
+    font-size: var(--fs-lg);
+}
+
+.card-title-sub {
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
+    margin: 2px 0 0;
+}
