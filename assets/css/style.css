@@ -1046,3 +1046,14 @@ pre code {
     border-radius: var(--radius-lg);
     box-shadow: none;
 }
+
+.card-header {
+    background: transparent;
+    border-block-end: var(--border-w) solid var(--border);
+    padding: var(--sp-4) var(--card-pad);
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    min-height: 56px;
+    flex-wrap: wrap;
+}
