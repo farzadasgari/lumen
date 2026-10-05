@@ -1087,3 +1087,20 @@ pre code {
     gap: var(--sp-2);
     flex-shrink: 0;
 }
+
+.card-flush > .card-body {
+    padding: 0;
+}
+
+.card-hover {
+    transition: border-color var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+
+.card-hover:hover {
+    border-color: var(--primary-edge);
+    transform: translateY(-2px);
+}
+
+.card-accent {
+    border-block-start: 3px solid var(--primary);
+}
