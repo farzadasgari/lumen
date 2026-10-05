@@ -1256,3 +1256,36 @@ canvas[data-spark] {
     color: var(--text-muted);
     font-size: var(--fs-md);
 }
+
+.btn {
+    --bs-btn-font-family: var(--font-sans);
+    font-weight: var(--fw-medium);
+    font-size: var(--fs-md);
+    border-radius: var(--radius-md);
+    padding: 0 14px;
+    height: var(--control-h);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border: var(--border-w) solid transparent;
+    transition: background-color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease),
+    color var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.btn:disabled, .btn.disabled {
+    opacity: 0.5;
+    transform: none;
+    cursor: not-allowed;
+}
+
+.btn i {
+    font-size: 1.05em;
+    line-height: 1;
+}
