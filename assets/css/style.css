@@ -2168,3 +2168,17 @@ textarea.form-control {
     transition: var(--dur) var(--ease);
     cursor: pointer;
 }
+
+.dropzone:hover, .dropzone.is-over {
+    border-color: var(--primary);
+    background: var(--primary-softer);
+}
+
+.dropzone i {
+    font-size: 2rem;
+    color: var(--text-subtle);
+}
+
+.dropzone.is-over i {
+    color: var(--primary);
+}
