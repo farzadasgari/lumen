@@ -1179,3 +1179,16 @@ canvas[data-spark] {
     display: block;
     width: 100%;
 }
+
+.delta {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-semibold);
+    padding-inline-start: 6px;
+    border-inline-start: 2px solid currentColor;
+    line-height: 1.4;
+}
