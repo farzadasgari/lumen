@@ -1163,3 +1163,19 @@ pre code {
     margin-block-start: 6px;
     flex-wrap: wrap;
 }
+
+.metric-note {
+    font-size: var(--fs-xs);
+    color: var(--text-subtle);
+}
+
+.metric-spark {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
+canvas[data-spark] {
+    display: block;
+    width: 100%;
+}
