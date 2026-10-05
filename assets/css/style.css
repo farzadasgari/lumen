@@ -2046,3 +2046,47 @@ textarea.form-control {
     color: var(--text-muted);
     margin: 2px 0 0;
 }
+
+.form-control.is-invalid, .form-select.is-invalid {
+    border-color: var(--danger);
+    background-image: none;
+}
+
+.form-control.is-invalid:focus {
+    box-shadow: 0 0 0 3px rgb(var(--danger-rgb) / 0.18);
+}
+
+.form-control.is-valid, .form-select.is-valid {
+    border-color: var(--success);
+    background-image: none;
+}
+
+.form-control.is-valid:focus {
+    box-shadow: 0 0 0 3px rgb(var(--success-rgb) / 0.18);
+}
+
+.invalid-feedback, .valid-feedback {
+    font-size: var(--fs-xs);
+    margin-block-start: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.invalid-feedback {
+    color: var(--danger);
+}
+
+.valid-feedback {
+    color: var(--success);
+}
+
+.was-validated .form-control:invalid, .was-validated .form-select:invalid {
+    border-color: var(--danger);
+    background-image: none;
+}
+
+.was-validated .form-control:valid, .was-validated .form-select:valid {
+    border-color: var(--success);
+    background-image: none;
+}
