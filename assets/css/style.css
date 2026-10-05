@@ -1837,3 +1837,8 @@ canvas[data-spark] {
     color: var(--text);
     margin-block-end: 6px;
 }
+
+.form-label .req {
+    color: var(--danger);
+    margin-inline-start: 2px;
+}
