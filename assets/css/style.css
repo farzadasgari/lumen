@@ -162,11 +162,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
     min-height: 100vh;
-    transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease);
+    transition: var(--dur) var(--ease);
 }
 
 .theme-transition, .theme-transition * {
-    transition: background-color var(--dur-slow) var(--ease),
+    transition: var(--dur-slow) var(--ease),
     border-color var(--dur-slow) var(--ease),
     color var(--dur-slow) var(--ease) !important;
 }
@@ -205,7 +205,7 @@ h6 {
 a {
     color: var(--primary-text);
     text-decoration: none;
-    transition: color var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
 }
 
 a:hover {
@@ -291,7 +291,7 @@ pre code {
     color: var(--primary-contrast);
     border-radius: var(--radius-md);
     font-weight: var(--fw-semibold);
-    transition: top var(--dur) var(--ease);
+    transition: var(--dur) var(--ease);
 }
 
 .skip-link:focus {
@@ -313,7 +313,7 @@ pre code {
     padding-top: var(--navbar-h);
     display: flex;
     flex-direction: column;
-    transition: padding-inline-start var(--dur-slow) var(--ease);
+    transition: var(--dur-slow) var(--ease);
 }
 
 .app-content {
@@ -366,7 +366,7 @@ pre code {
     border-inline-end: var(--border-w) solid var(--border);
     display: flex;
     flex-direction: column;
-    transition: width var(--dur-slow) var(--ease), transform var(--dur-slow) var(--ease);
+    transition: var(--dur-slow) var(--ease);
 }
 
 [data-sidebar="mini"] .sidebar,
@@ -460,7 +460,7 @@ pre code {
     background: var(--surface-2);
     color: var(--text);
     text-align: start;
-    transition: background var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
 }
 
 .workspace-btn:hover {
@@ -541,7 +541,7 @@ pre code {
     color: var(--text-muted);
     font-size: var(--fs-md);
     font-weight: var(--fw-medium);
-    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
     white-space: nowrap;
 }
 
@@ -612,7 +612,7 @@ pre code {
 .nav-caret {
     flex: 0 0 auto;
     font-size: 0.75rem;
-    transition: rotate var(--dur) var(--ease);
+    transition: var(--dur) var(--ease);
     color: var(--text-subtle);
 }
 
@@ -660,7 +660,7 @@ pre code {
     border-radius: var(--radius-sm);
     font-size: var(--fs-sm);
     color: var(--text-muted);
-    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
 }
 
 .nav-sub-link:hover {
@@ -692,7 +692,7 @@ pre code {
     background: transparent;
     color: var(--text);
     text-align: start;
-    transition: background var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
 }
 
 .sidebar-user:hover {
@@ -790,7 +790,7 @@ pre code {
     backdrop-filter: saturate(180%) blur(14px);
     -webkit-backdrop-filter: saturate(180%) blur(14px);
     border-block-end: var(--border-w) solid var(--border);
-    transition: padding-inline-start var(--dur-slow) var(--ease);
+    transition: var(--dur-slow) var(--ease);
 }
 
 [data-sidebar="mini"] .navbar-top,
@@ -844,7 +844,7 @@ pre code {
     color: var(--text-muted);
     font-size: 1.125rem;
     position: relative;
-    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
 }
 
 .nav-icon-btn:hover {
@@ -1003,7 +1003,7 @@ pre code {
     padding: 11px var(--sp-4);
     border-block-end: var(--border-w) solid var(--border);
     color: var(--text);
-    transition: background var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
 }
 
 .panel-item:last-child {
@@ -1093,7 +1093,7 @@ pre code {
 }
 
 .card-hover {
-    transition: border-color var(--dur) var(--ease), transform var(--dur) var(--ease);
+    transition: var(--dur) var(--ease);
 }
 
 .card-hover:hover {
@@ -1269,7 +1269,7 @@ canvas[data-spark] {
     justify-content: center;
     gap: 7px;
     border: var(--border-w) solid transparent;
-    transition: background-color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease),
+    transition: var(--dur-fast) var(--ease),
     color var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
     white-space: nowrap;
     line-height: 1;
@@ -1847,4 +1847,16 @@ canvas[data-spark] {
     font-size: var(--fs-xs);
     color: var(--text-subtle);
     margin-block-start: 5px;
+}
+
+
+.form-control, .form-select {
+    background: var(--surface);
+    border: var(--border-w) solid var(--border-strong);
+    border-radius: var(--radius-md);
+    color: var(--text);
+    font-size: var(--fs-md);
+    min-height: var(--control-h);
+    padding: 7px 12px;
+    transition: var(--dur-fast) var(--ease);
 }
