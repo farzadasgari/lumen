@@ -1498,3 +1498,31 @@ canvas[data-spark] {
     background-position: 100% 0;
     color: var(--primary-contrast);
 }
+
+.btn-xs {
+    height: 26px;
+    font-size: var(--fs-2xs);
+    padding: 0 8px;
+    border-radius: var(--radius-sm);
+    gap: 4px;
+}
+
+.btn-sm {
+    height: 32px;
+    font-size: var(--fs-sm);
+    padding: 0 11px;
+    border-radius: var(--radius-sm);
+}
+
+.btn-lg {
+    height: 44px;
+    font-size: var(--fs-base);
+    padding: 0 18px;
+}
+
+.btn-xl {
+    height: 52px;
+    font-size: var(--fs-lg);
+    padding: 0 24px;
+    border-radius: var(--radius-lg);
+}
