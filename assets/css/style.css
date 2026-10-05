@@ -1212,3 +1212,14 @@ canvas[data-spark] {
     flex-wrap: wrap;
     margin-block-end: var(--sp-5);
 }
+
+.page-head-main {
+    flex: 1 1 320px;
+    min-width: 0;
+}
+
+.page-title {
+    margin: 0;
+    font-size: clamp(1.375rem, 1.2rem + 0.8vw, 1.75rem);
+    letter-spacing: -0.02em;
+}
