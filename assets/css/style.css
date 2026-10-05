@@ -1669,3 +1669,53 @@ canvas[data-spark] {
     border-color: var(--primary-edge);
     color: var(--primary-text);
 }
+
+.status {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+}
+
+.status::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: currentColor;
+    flex: 0 0 auto;
+}
+
+.status.ok {
+    color: var(--success);
+}
+
+.status.warn {
+    color: var(--warning);
+}
+
+.status.down {
+    color: var(--danger);
+}
+
+.status.idle {
+    color: var(--text-subtle);
+}
+
+.status.info {
+    color: var(--info);
+}
+
+.status.live::before {
+    animation: pulse-dot 2s var(--ease) infinite;
+}
+
+@keyframes pulse-dot {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgb(from currentColor r g b / 0.5);
+    }
+    50% {
+        box-shadow: 0 0 0 5px rgb(from currentColor r g b / 0);
+    }
+}
