@@ -1860,3 +1860,30 @@ canvas[data-spark] {
     padding: 7px 12px;
     transition: var(--dur-fast) var(--ease);
 }
+
+textarea.form-control {
+    min-height: 92px;
+    line-height: var(--lh-normal);
+}
+
+.form-control::placeholder {
+    color: var(--text-subtle);
+}
+
+.form-control:hover, .form-select:hover {
+    border-color: var(--text-subtle);
+}
+
+.form-control:focus, .form-select:focus {
+    background: var(--surface);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgb(var(--primary-rgb) / 0.18);
+    color: var(--text);
+    outline: none;
+}
+
+.form-control:disabled, .form-select:disabled, .form-control[readonly] {
+    background: var(--surface-inset);
+    color: var(--text-subtle);
+    cursor: not-allowed;
+}
