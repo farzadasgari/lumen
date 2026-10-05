@@ -2158,3 +2158,13 @@ textarea.form-control {
 .tag-pill button:hover {
     opacity: 1;
 }
+
+.dropzone {
+    border: 2px dashed var(--border-strong);
+    border-radius: var(--radius-lg);
+    padding: var(--sp-6) var(--sp-4);
+    text-align: center;
+    background: var(--surface-2);
+    transition: var(--dur) var(--ease);
+    cursor: pointer;
+}
