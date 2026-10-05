@@ -2090,3 +2090,18 @@ textarea.form-control {
     border-color: var(--success);
     background-image: none;
 }
+
+.otp-group {
+    display: flex;
+    gap: 8px;
+}
+
+.otp-input {
+    width: 46px;
+    height: 54px;
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-semibold);
+    padding: 0;
+}
