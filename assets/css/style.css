@@ -1830,3 +1830,10 @@ canvas[data-spark] {
     font-size: var(--fs-2xs);
     font-family: var(--font-mono);
 }
+
+.form-label {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+    color: var(--text);
+    margin-block-end: 6px;
+}
