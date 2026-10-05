@@ -1952,3 +1952,53 @@ textarea.form-control {
     padding-inline-start: 12px;
     padding-inline-end: 34px;
 }
+
+.form-check-input {
+    background-color: var(--surface);
+    border: 1.5px solid var(--border-strong);
+    width: 17px;
+    height: 17px;
+    margin-top: 3px;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-fill);
+    border-color: var(--primary-fill);
+}
+
+.form-check-input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgb(var(--primary-rgb) / 0.18);
+}
+
+.form-check-label {
+    font-size: var(--fs-md);
+    color: var(--text);
+}
+
+.form-switch .form-check-input {
+    width: 36px;
+    height: 20px;
+    margin-top: 1px;
+    border-radius: var(--radius-pill);
+}
+
+.form-check-input:disabled ~ .form-check-label {
+    color: var(--text-subtle);
+}
+
+.form-range::-webkit-slider-thumb {
+    background: var(--primary-fill);
+}
+
+.form-range::-moz-range-thumb {
+    background: var(--primary-fill);
+}
+
+.form-range::-webkit-slider-runnable-track {
+    background: var(--surface-3);
+}
+
+.form-range::-moz-range-track {
+    background: var(--surface-3);
+}
