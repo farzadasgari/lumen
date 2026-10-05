@@ -1289,3 +1289,212 @@ canvas[data-spark] {
     font-size: 1.05em;
     line-height: 1;
 }
+
+.btn-primary {
+    background: var(--primary-fill);
+    border-color: var(--primary-fill);
+    color: var(--primary-contrast);
+}
+
+.btn-primary:hover, .btn-primary:focus-visible {
+    background: var(--primary-hover);
+    border-color: var(--primary-hover);
+    color: var(--primary-contrast);
+}
+
+.btn-primary:active {
+    background: var(--primary-active) !important;
+    border-color: var(--primary-active) !important;
+    color: var(--primary-contrast) !important;
+}
+
+.btn-secondary {
+    background: var(--surface);
+    border-color: var(--border-strong);
+    color: var(--text);
+}
+
+.btn-secondary:hover, .btn-secondary:focus-visible {
+    background: var(--surface-2);
+    border-color: var(--border-strong);
+    color: var(--text);
+}
+
+.btn-success {
+    background: var(--success);
+    border-color: var(--success);
+    color: #fff;
+}
+
+.btn-success:hover {
+    filter: brightness(0.92);
+    background: var(--success);
+    border-color: var(--success);
+    color: #fff;
+}
+
+.btn-danger {
+    background: var(--danger);
+    border-color: var(--danger);
+    color: #fff;
+}
+
+.btn-danger:hover {
+    filter: brightness(0.92);
+    background: var(--danger);
+    border-color: var(--danger);
+    color: #fff;
+}
+
+.btn-warning {
+    background: var(--warning);
+    border-color: var(--warning);
+    color: #fff;
+}
+
+.btn-warning:hover {
+    filter: brightness(0.92);
+    background: var(--warning);
+    border-color: var(--warning);
+    color: #fff;
+}
+
+.btn-info {
+    background: var(--info);
+    border-color: var(--info);
+    color: #fff;
+}
+
+.btn-info:hover {
+    filter: brightness(0.92);
+    background: var(--info);
+    border-color: var(--info);
+    color: #fff;
+}
+
+[data-mode="dark"] .btn-success, [data-mode="dark"] .btn-danger,
+[data-mode="dark"] .btn-warning, [data-mode="dark"] .btn-info {
+    color: var(--bg-alt);
+}
+
+.btn-light {
+    background: var(--surface-2);
+    border-color: var(--border);
+    color: var(--text);
+}
+
+.btn-light:hover {
+    background: var(--surface-3);
+    color: var(--text);
+    border-color: var(--border-strong);
+}
+
+.btn-dark {
+    background: var(--text);
+    border-color: var(--text);
+    color: var(--surface);
+}
+
+.btn-dark:hover {
+    background: var(--text);
+    border-color: var(--text);
+    color: var(--surface);
+    filter: brightness(1.2);
+}
+
+.btn-outline-primary {
+    background: transparent;
+    border-color: var(--primary-edge);
+    color: var(--primary-text);
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus-visible {
+    background: var(--primary-soft);
+    border-color: var(--primary-edge);
+    color: var(--primary-text);
+}
+
+.btn-outline-secondary {
+    background: transparent;
+    border-color: var(--border-strong);
+    color: var(--text-muted);
+}
+
+.btn-outline-secondary:hover {
+    background: var(--surface-2);
+    color: var(--text);
+    border-color: var(--border-strong);
+}
+
+.btn-outline-danger {
+    background: transparent;
+    border-color: var(--danger);
+    color: var(--danger);
+}
+
+.btn-outline-danger:hover {
+    background: var(--danger-soft);
+    color: var(--danger);
+    border-color: var(--danger);
+}
+
+.btn-outline-success {
+    background: transparent;
+    border-color: var(--success);
+    color: var(--success);
+}
+
+.btn-outline-success:hover {
+    background: var(--success-soft);
+    color: var(--success);
+    border-color: var(--success);
+}
+
+.btn-ghost {
+    background: transparent;
+    border-color: transparent;
+    color: var(--text-muted);
+}
+
+.btn-ghost:hover {
+    background: var(--surface-2);
+    color: var(--text);
+}
+
+.btn-ghost-primary {
+    background: transparent;
+    border-color: transparent;
+    color: var(--primary-text);
+}
+
+.btn-ghost-primary:hover {
+    background: var(--primary-soft);
+    color: var(--primary-text);
+}
+
+.btn-link {
+    background: none;
+    border: none;
+    color: var(--primary-text);
+    padding-inline: 4px;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.btn-gradient {
+    border: none;
+    color: var(--primary-contrast);
+    background: linear-gradient(120deg, var(--primary-fill), var(--primary-active) 60%, var(--primary-fill));
+    background-size: 180% 100%;
+    transition: background-position var(--dur-slow) var(--ease), transform var(--dur-fast) var(--ease);
+}
+
+.btn-gradient:hover {
+    background-position: 100% 0;
+    color: var(--primary-contrast);
+}
