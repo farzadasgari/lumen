@@ -1842,3 +1842,9 @@ canvas[data-spark] {
     color: var(--danger);
     margin-inline-start: 2px;
 }
+
+.form-hint {
+    font-size: var(--fs-xs);
+    color: var(--text-subtle);
+    margin-block-start: 5px;
+}
