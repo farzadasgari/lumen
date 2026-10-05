@@ -1919,3 +1919,7 @@ textarea.form-control {
     font-size: var(--fs-md);
     border-radius: var(--radius-md);
 }
+
+.input-group .form-control:focus {
+    z-index: 3;
+}
