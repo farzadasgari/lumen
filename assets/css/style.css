@@ -2002,3 +2002,16 @@ textarea.form-control {
 .form-range::-moz-range-track {
     background: var(--surface-3);
 }
+
+.option-card {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 13px 14px;
+    cursor: pointer;
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+    transition: var(--dur-fast) var(--ease);
+    margin: 0;
+}
