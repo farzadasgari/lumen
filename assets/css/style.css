@@ -2105,3 +2105,15 @@ textarea.form-control {
     font-weight: var(--fw-semibold);
     padding: 0;
 }
+
+.tag-field {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    min-height: var(--control-h);
+    padding: 5px 8px;
+    border: var(--border-w) solid var(--border-strong);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+}
