@@ -1230,3 +1230,10 @@ canvas[data-spark] {
     font-size: var(--fs-base);
     max-width: 68ch;
 }
+
+.page-head-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    flex-wrap: wrap;
+}
