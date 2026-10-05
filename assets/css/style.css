@@ -1237,3 +1237,22 @@ canvas[data-spark] {
     gap: var(--sp-2);
     flex-wrap: wrap;
 }
+
+.section-head {
+    display: flex;
+    align-items: baseline;
+    gap: var(--sp-3);
+    margin-block-end: var(--sp-4);
+    flex-wrap: wrap;
+}
+
+.section-head h2, .section-head h3 {
+    margin: 0;
+    font-size: var(--fs-xl);
+}
+
+.section-head p {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: var(--fs-md);
+}
