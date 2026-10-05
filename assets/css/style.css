@@ -1120,3 +1120,10 @@ pre code {
     padding: var(--card-pad) var(--card-pad) 10px;
     flex: 1 1 auto;
 }
+
+.metric-head {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    margin-block-end: 10px;
+}
