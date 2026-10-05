@@ -1581,3 +1581,59 @@ canvas[data-spark] {
     letter-spacing: 0.005em;
 }
 
+.badge-soft {
+    background: var(--surface-3);
+    color: var(--text-muted);
+}
+
+.badge-primary {
+    background: var(--primary-soft);
+    color: var(--primary-text);
+}
+
+.badge-success {
+    background: var(--success-soft);
+    color: var(--success);
+}
+
+.badge-warning {
+    background: var(--warning-soft);
+    color: var(--warning);
+}
+
+.badge-danger {
+    background: var(--danger-soft);
+    color: var(--danger);
+}
+
+.badge-info {
+    background: var(--info-soft);
+    color: var(--info);
+}
+
+.badge-solid {
+    background: var(--primary-fill);
+    color: var(--primary-contrast);
+}
+
+.badge-outline {
+    background: transparent;
+    border: var(--border-w) solid var(--border-strong);
+    color: var(--text-muted);
+}
+
+.badge-dot::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    margin-inline-end: 5px;
+    vertical-align: 1px;
+}
+
+.badge-num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+}
