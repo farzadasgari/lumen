@@ -2132,3 +2132,29 @@ textarea.form-control {
     color: var(--text);
     font-size: var(--fs-md);
 }
+
+.tag-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 6px 2px 9px;
+    border-radius: var(--radius-sm);
+    background: var(--primary-soft);
+    color: var(--primary-text);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+}
+
+.tag-pill button {
+    border: none;
+    background: none;
+    padding: 0;
+    color: inherit;
+    opacity: 0.65;
+    line-height: 1;
+    font-size: 0.95rem;
+}
+
+.tag-pill button:hover {
+    opacity: 1;
+}
