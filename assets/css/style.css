@@ -1526,3 +1526,48 @@ canvas[data-spark] {
     padding: 0 24px;
     border-radius: var(--radius-lg);
 }
+
+.btn.is-loading {
+    position: relative;
+    color: transparent !important;
+    pointer-events: none;
+}
+
+.btn.is-loading::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid currentColor;
+    border-top-color: transparent;
+    color: var(--primary-contrast);
+    animation: spin 640ms linear infinite;
+}
+
+.btn-secondary.is-loading::after, .btn-outline-primary.is-loading::after,
+.btn-ghost.is-loading::after, .btn-light.is-loading::after {
+    color: var(--text);
+}
+
+@keyframes spin {
+    to {
+        rotate: 360deg;
+    }
+}
+
+.btn-group > .btn {
+    border-radius: 0;
+}
+
+.btn-group > .btn:first-child {
+    border-start-start-radius: var(--radius-md);
+    border-end-start-radius: var(--radius-md);
+}
+
+.btn-group > .btn:last-child {
+    border-start-end-radius: var(--radius-md);
+    border-end-end-radius: var(--radius-md);
+}
