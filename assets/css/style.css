@@ -1923,3 +1923,32 @@ textarea.form-control {
 .input-group .form-control:focus {
     z-index: 3;
 }
+
+.field-affix {
+    position: relative;
+}
+
+.field-affix > i, .field-affix > .affix {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    inset-inline-start: 11px;
+    color: var(--text-subtle);
+    font-size: 1rem;
+    pointer-events: none;
+    line-height: 1;
+}
+
+.field-affix > .form-control {
+    padding-inline-start: 34px;
+}
+
+.field-affix.affix-end > i, .field-affix.affix-end > .affix {
+    inset-inline-start: auto;
+    inset-inline-end: 11px;
+}
+
+.field-affix.affix-end > .form-control {
+    padding-inline-start: 12px;
+    padding-inline-end: 34px;
+}
