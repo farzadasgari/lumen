@@ -1079,3 +1079,11 @@ pre code {
     border-block-start: var(--border-w) solid var(--border);
     padding: var(--sp-3) var(--card-pad);
 }
+
+.card-actions {
+    margin-inline-start: auto;
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    flex-shrink: 0;
+}
