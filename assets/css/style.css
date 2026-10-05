@@ -1893,3 +1893,21 @@ textarea.form-control {
     background-size: 14px 11px;
     padding-inline-end: 34px;
 }
+
+.form-control-sm, .form-select-sm {
+    min-height: 32px;
+    font-size: var(--fs-sm);
+    padding: 5px 10px;
+    border-radius: var(--radius-sm);
+}
+
+.form-control-lg, .form-select-lg {
+    min-height: 46px;
+    font-size: var(--fs-base);
+    padding: 10px 14px;
+}
+
+.form-control.is-mono {
+    font-family: var(--font-mono);
+    letter-spacing: 0.01em;
+}
