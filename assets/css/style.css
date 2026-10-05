@@ -1571,3 +1571,13 @@ canvas[data-spark] {
     border-start-end-radius: var(--radius-md);
     border-end-end-radius: var(--radius-md);
 }
+
+.badge {
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-2xs);
+    padding: 3px 8px;
+    border-radius: var(--radius-sm);
+    line-height: 1.4;
+    letter-spacing: 0.005em;
+}
+
