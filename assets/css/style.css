@@ -2015,3 +2015,34 @@ textarea.form-control {
     transition: var(--dur-fast) var(--ease);
     margin: 0;
 }
+
+.option-card:hover {
+    border-color: var(--border-strong);
+    background: var(--surface-2);
+}
+
+.option-card:has(input:checked) {
+    border-color: var(--primary);
+    background: var(--primary-softer);
+}
+
+.option-card:has(input:focus-visible) {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+
+.option-card .form-check-input {
+    margin: 2px 0 0;
+    flex: 0 0 auto;
+}
+
+.option-card-title {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+}
+
+.option-card-text {
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
+    margin: 2px 0 0;
+}
