@@ -1204,3 +1204,11 @@ canvas[data-spark] {
 .delta.flat {
     color: var(--text-subtle);
 }
+
+.page-head {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--sp-4);
+    flex-wrap: wrap;
+    margin-block-end: var(--sp-5);
+}
