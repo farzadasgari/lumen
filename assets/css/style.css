@@ -1115,3 +1115,8 @@ pre code {
     overflow: hidden;
     min-height: 132px;
 }
+
+.metric-body {
+    padding: var(--card-pad) var(--card-pad) 10px;
+    flex: 1 1 auto;
+}
