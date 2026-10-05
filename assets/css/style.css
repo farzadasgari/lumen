@@ -1223,3 +1223,10 @@ canvas[data-spark] {
     font-size: clamp(1.375rem, 1.2rem + 0.8vw, 1.75rem);
     letter-spacing: -0.02em;
 }
+
+.page-sub {
+    margin: 6px 0 0;
+    color: var(--text-muted);
+    font-size: var(--fs-base);
+    max-width: 68ch;
+}
