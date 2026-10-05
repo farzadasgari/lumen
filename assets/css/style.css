@@ -1127,3 +1127,15 @@ pre code {
     gap: var(--sp-2);
     margin-block-end: 10px;
 }
+
+.metric-icon {
+    width: 30px;
+    height: 30px;
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    border-radius: var(--radius-sm);
+    background: var(--primary-soft);
+    color: var(--primary-text);
+    font-size: 0.9375rem;
+}
