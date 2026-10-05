@@ -1145,3 +1145,13 @@ pre code {
     color: var(--text-muted);
     font-weight: var(--fw-medium);
 }
+
+.metric-value {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: clamp(1.375rem, 1.2rem + 0.6vw, 1.75rem);
+    font-weight: var(--fw-semibold);
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    color: var(--text);
+}
