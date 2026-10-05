@@ -1139,3 +1139,9 @@ pre code {
     color: var(--primary-text);
     font-size: 0.9375rem;
 }
+
+.metric-label {
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
+    font-weight: var(--fw-medium);
+}
