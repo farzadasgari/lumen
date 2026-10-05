@@ -1192,3 +1192,15 @@ canvas[data-spark] {
     border-inline-start: 2px solid currentColor;
     line-height: 1.4;
 }
+
+.delta.up {
+    color: var(--success);
+}
+
+.delta.down {
+    color: var(--danger);
+}
+
+.delta.flat {
+    color: var(--text-subtle);
+}
