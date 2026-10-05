@@ -1073,3 +1073,9 @@ pre code {
 .card-body {
     padding: var(--card-pad);
 }
+
+.card-footer {
+    background: var(--surface-2);
+    border-block-start: var(--border-w) solid var(--border);
+    padding: var(--sp-3) var(--card-pad);
+}
