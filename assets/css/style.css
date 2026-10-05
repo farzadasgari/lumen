@@ -2198,3 +2198,89 @@ textarea.form-control {
     border-radius: var(--radius-md);
     background: var(--surface);
 }
+
+.steps {
+    display: flex;
+    gap: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: step;
+}
+
+.step {
+    flex: 1 1 0;
+    min-width: 0;
+    position: relative;
+    padding-block-start: 30px;
+    text-align: center;
+}
+
+.step::before {
+    counter-increment: step;
+    content: counter(step);
+    position: absolute;
+    top: 0;
+    inset-inline-start: 50%;
+    translate: -50% 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: var(--surface);
+    border: 1.5px solid var(--border-strong);
+    color: var(--text-subtle);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-semibold);
+    font-family: var(--font-mono);
+    z-index: 1;
+}
+
+.step::after {
+    content: '';
+    position: absolute;
+    top: 13px;
+    inset-inline-start: calc(50% + 17px);
+    width: calc(100% - 34px);
+    height: 1.5px;
+    background: var(--border-strong);
+}
+
+.step:last-child::after {
+    display: none;
+}
+
+.step.is-done::before {
+    content: '\F26E';
+    font-family: 'bootstrap-icons';
+    background: var(--primary-fill);
+    border-color: var(--primary-fill);
+    color: var(--primary-contrast);
+}
+
+.step.is-done::after {
+    background: var(--primary-fill);
+}
+
+.step.is-active::before {
+    border-color: var(--primary);
+    color: var(--primary-text);
+    box-shadow: 0 0 0 4px rgb(var(--primary-rgb) / 0.16);
+}
+
+.step-label {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+    color: var(--text-muted);
+    padding-inline: 4px;
+}
+
+.step.is-active .step-label {
+    color: var(--text);
+    font-weight: var(--fw-semibold);
+}
+
+.step.is-done .step-label {
+    color: var(--text);
+}
