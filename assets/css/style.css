@@ -1104,3 +1104,14 @@ pre code {
 .card-accent {
     border-block-start: 3px solid var(--primary);
 }
+
+.metric {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    min-height: 132px;
+}
