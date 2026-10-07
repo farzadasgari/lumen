@@ -2546,3 +2546,9 @@ a.media-row:hover {
     font-weight: var(--fw-medium);
     line-height: 1.35;
 }
+
+.media-row-sub {
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
+    line-height: 1.4;
+}
