@@ -2478,3 +2478,10 @@ textarea.form-control {
 [dir="rtl"] .row-toggle i {
     scale: -1 1;
 }
+
+.row-detail > td {
+    background: var(--surface-2);
+    padding: 0 !important;
+    height: auto !important;
+    border-block-end: var(--border-w) solid var(--border);
+}
