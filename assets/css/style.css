@@ -2318,3 +2318,7 @@ textarea.form-control {
 .table tbody tr:last-child td {
     border-block-end: none;
 }
+
+.table-hover tbody tr {
+    transition: var(--dur-fast) var(--ease);
+}
