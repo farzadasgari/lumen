@@ -2802,3 +2802,12 @@ a.media-row:hover {
     border-radius: var(--radius-pill);
     animation: linear-slide 1.3s var(--ease) infinite;
 }
+
+@keyframes linear-slide {
+    0% {
+        translate: -100% 0;
+    }
+    100% {
+        translate: 320% 0;
+    }
+}
