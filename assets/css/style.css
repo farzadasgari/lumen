@@ -2608,3 +2608,9 @@ a.media-row:hover {
     background: var(--primary-soft);
     color: var(--primary-text);
 }
+
+.timeline-marker.is-success {
+    border-color: var(--success);
+    background: var(--success-soft);
+    color: var(--success);
+}
