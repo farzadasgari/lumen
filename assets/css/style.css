@@ -2369,3 +2369,10 @@ textarea.form-control {
 .th-sort:hover {
     color: var(--text);
 }
+
+.th-sort .sort-ind {
+    display: inline-block;
+    margin-inline-start: 5px;
+    opacity: 0.35;
+    font-size: 0.75rem;
+}
