@@ -2578,3 +2578,7 @@ a.media-row:hover {
     position: relative;
     padding: 0 0 var(--sp-5) 44px;
 }
+
+[dir="rtl"] .timeline-item {
+    padding: 0 44px var(--sp-5) 0;
+}
