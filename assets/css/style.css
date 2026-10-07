@@ -2729,3 +2729,22 @@ a.media-row:hover {
         translate: 0 -4px;
     }
 }
+
+.pulse-loader {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--primary);
+    animation: pulse-ring 1.4s var(--ease) infinite;
+}
+
+@keyframes pulse-ring {
+    0% {
+        scale: 0.5;
+        opacity: 1;
+    }
+    100% {
+        scale: 1.3;
+        opacity: 0;
+    }
+}
