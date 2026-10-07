@@ -2602,3 +2602,9 @@ a.media-row:hover {
     font-size: 0.875rem;
     z-index: 1;
 }
+
+.timeline-marker.is-primary {
+    border-color: var(--primary-edge);
+    background: var(--primary-soft);
+    color: var(--primary-text);
+}
