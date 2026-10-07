@@ -2442,3 +2442,7 @@ textarea.form-control {
     opacity: 0;
     transition: var(--dur) var(--ease);
 }
+
+.table-scroll.is-scrolled .col-pin::after {
+    opacity: 1;
+}
