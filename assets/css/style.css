@@ -2326,3 +2326,10 @@ textarea.form-control {
 .table-hover tbody tr:hover td {
     background: var(--surface-2);
 }
+
+.table .num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    text-align: end;
+    letter-spacing: -0.01em;
+}
