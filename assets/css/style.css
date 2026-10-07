@@ -2395,3 +2395,19 @@ textarea.form-control {
 .table tbody tr.is-selected td {
     background: var(--primary-softer);
 }
+
+.bulk-bar {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    flex-wrap: wrap;
+    padding: 10px var(--sp-4);
+    background: var(--primary-soft);
+    border-block-end: var(--border-w) solid var(--primary-edge);
+    font-size: var(--fs-md);
+    color: var(--primary-text);
+}
+
+.bulk-bar[hidden] {
+    display: none;
+}
