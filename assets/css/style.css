@@ -2586,3 +2586,19 @@ a.media-row:hover {
 .timeline-item:last-child {
     padding-block-end: 0;
 }
+
+.timeline-marker {
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: var(--surface);
+    border: 2px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    z-index: 1;
+}
