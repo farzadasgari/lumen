@@ -2416,3 +2416,10 @@ textarea.form-control {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
+
+.table-scroll .col-pin {
+    position: sticky;
+    inset-inline-start: 0;
+    z-index: 1;
+    background: var(--surface);
+}
