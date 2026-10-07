@@ -2756,3 +2756,12 @@ a.media-row:hover {
     border-radius: var(--radius-sm);
     display: block;
 }
+
+@keyframes shimmer {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
