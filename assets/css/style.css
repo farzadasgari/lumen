@@ -2360,3 +2360,12 @@ textarea.form-control {
     color: var(--text-muted);
     font-size: var(--fs-sm);
 }
+
+.th-sort {
+    cursor: pointer;
+    user-select: none;
+}
+
+.th-sort:hover {
+    color: var(--text);
+}
