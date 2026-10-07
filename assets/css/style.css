@@ -2460,3 +2460,8 @@ textarea.form-control {
     line-height: 1;
     border-radius: var(--radius-sm);
 }
+
+.row-toggle:hover {
+    background: var(--surface-3);
+    color: var(--text);
+}
