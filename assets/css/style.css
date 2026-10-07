@@ -2516,3 +2516,7 @@ textarea.form-control {
 .stack-list > li {
     border-block-end: var(--border-w) solid var(--border);
 }
+
+.stack-list > li:last-child {
+    border-block-end: none;
+}
