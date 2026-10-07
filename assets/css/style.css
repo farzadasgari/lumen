@@ -2376,3 +2376,8 @@ textarea.form-control {
     opacity: 0.35;
     font-size: 0.75rem;
 }
+
+.th-sort[aria-sort="ascending"] .sort-ind, .th-sort[aria-sort="descending"] .sort-ind {
+    opacity: 1;
+    color: var(--primary);
+}
