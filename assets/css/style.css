@@ -2529,3 +2529,9 @@ textarea.form-control {
     color: var(--text);
     transition: var(--dur-fast) var(--ease);
 }
+
+a.media-row:hover {
+    background: var(--surface-2);
+    color: var(--text);
+    text-decoration: none;
+}
