@@ -2385,3 +2385,9 @@ textarea.form-control {
 .th-sort[aria-sort="descending"] .sort-ind {
     rotate: 180deg;
 }
+
+.table-sticky thead th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
