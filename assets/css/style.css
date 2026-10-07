@@ -2614,3 +2614,9 @@ a.media-row:hover {
     background: var(--success-soft);
     color: var(--success);
 }
+
+.timeline-marker.is-danger {
+    border-color: var(--danger);
+    background: var(--danger-soft);
+    color: var(--danger);
+}
