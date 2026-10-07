@@ -2644,3 +2644,10 @@ a.media-row:hover {
     color: var(--text-subtle);
     font-family: var(--font-mono);
 }
+
+.empty {
+    text-align: center;
+    padding: var(--sp-7) var(--sp-4);
+    max-width: 420px;
+    margin-inline: auto;
+}
