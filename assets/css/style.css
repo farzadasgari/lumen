@@ -2632,3 +2632,9 @@ a.media-row:hover {
     font-weight: var(--fw-medium);
     margin: 5px 0 2px;
 }
+
+.timeline-text {
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
+    margin: 0;
+}
