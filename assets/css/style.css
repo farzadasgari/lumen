@@ -2535,3 +2535,8 @@ a.media-row:hover {
     color: var(--text);
     text-decoration: none;
 }
+
+.media-row-main {
+    flex: 1 1 auto;
+    min-width: 0;
+}
