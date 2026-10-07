@@ -2696,3 +2696,9 @@ a.media-row:hover {
     width: 14px;
     height: 14px;
 }
+
+.dots {
+    display: inline-flex;
+    gap: 4px;
+    align-items: center;
+}
