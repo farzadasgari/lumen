@@ -2391,3 +2391,7 @@ textarea.form-control {
     top: 0;
     z-index: 2;
 }
+
+.table tbody tr.is-selected td {
+    background: var(--primary-softer);
+}
