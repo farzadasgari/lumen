@@ -2501,3 +2501,8 @@ textarea.form-control {
     color: var(--text-subtle);
     margin-block-end: 3px;
 }
+
+.detail-item .v {
+    font-size: var(--fs-md);
+    color: var(--text);
+}
