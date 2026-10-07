@@ -2428,3 +2428,17 @@ textarea.form-control {
     background: var(--surface-2);
     z-index: 3;
 }
+
+.table-scroll .col-pin::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    inset-inline-end: 0;
+    width: 12px;
+    translate: 100% 0;
+    background: linear-gradient(to right, rgb(0 0 0 / 0.07), transparent);
+    pointer-events: none;
+    opacity: 0;
+    transition: var(--dur) var(--ease);
+}
