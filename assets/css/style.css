@@ -2489,3 +2489,9 @@ textarea.form-control {
 .row-detail-inner {
     padding: var(--sp-4);
 }
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: var(--sp-4);
+}
