@@ -2353,3 +2353,10 @@ textarea.form-control {
 .table-spacious > :not(caption) > * > * {
     height: 64px;
 }
+
+.table caption {
+    caption-side: top;
+    padding: 0 0 var(--sp-3);
+    color: var(--text-muted);
+    font-size: var(--fs-sm);
+}
