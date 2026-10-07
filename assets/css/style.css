@@ -2446,3 +2446,8 @@ textarea.form-control {
 .table-scroll.is-scrolled .col-pin::after {
     opacity: 1;
 }
+
+[dir="rtl"] .table-scroll .col-pin::after {
+    background: linear-gradient(to left, rgb(0 0 0 / 0.07), transparent);
+    translate: -100% 0;
+}
