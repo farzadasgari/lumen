@@ -2451,3 +2451,12 @@ textarea.form-control {
     background: linear-gradient(to left, rgb(0 0 0 / 0.07), transparent);
     translate: -100% 0;
 }
+
+.row-toggle {
+    border: none;
+    background: none;
+    color: var(--text-subtle);
+    padding: 4px;
+    line-height: 1;
+    border-radius: var(--radius-sm);
+}
