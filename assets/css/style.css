@@ -2792,3 +2792,13 @@ a.media-row:hover {
     border-radius: var(--radius-pill);
     overflow: hidden;
 }
+
+.linear-loader::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 38%;
+    background: var(--primary);
+    border-radius: var(--radius-pill);
+    animation: linear-slide 1.3s var(--ease) infinite;
+}
