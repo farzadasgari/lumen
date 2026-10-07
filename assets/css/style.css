@@ -2344,3 +2344,8 @@ textarea.form-control {
     width: 1%;
     padding-inline-end: 0;
 }
+
+.table-compact > :not(caption) > * > * {
+    height: 36px;
+    font-size: var(--fs-sm);
+}
