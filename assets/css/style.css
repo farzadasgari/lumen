@@ -2520,3 +2520,12 @@ textarea.form-control {
 .stack-list > li:last-child {
     border-block-end: none;
 }
+
+.media-row {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: 12px var(--card-pad);
+    color: var(--text);
+    transition: var(--dur-fast) var(--ease);
+}
