@@ -2765,3 +2765,23 @@ a.media-row:hover {
         background-position: 0 0;
     }
 }
+
+.sk-text {
+    height: 11px;
+    margin-block-end: 8px;
+}
+
+.sk-title {
+    height: 17px;
+    width: 45%;
+    margin-block-end: 12px;
+}
+
+.sk-circle {
+    border-radius: 50%;
+}
+
+.sk-block {
+    height: 100px;
+    border-radius: var(--radius-md);
+}
