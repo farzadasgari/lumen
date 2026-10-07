@@ -2582,3 +2582,7 @@ a.media-row:hover {
 [dir="rtl"] .timeline-item {
     padding: 0 44px var(--sp-5) 0;
 }
+
+.timeline-item:last-child {
+    padding-block-end: 0;
+}
