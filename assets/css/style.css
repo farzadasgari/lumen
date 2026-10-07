@@ -2626,3 +2626,9 @@ a.media-row:hover {
     background: var(--warning-soft);
     color: var(--warning);
 }
+
+.timeline-title {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+    margin: 5px 0 2px;
+}
