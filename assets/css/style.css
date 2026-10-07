@@ -2512,3 +2512,7 @@ textarea.form-control {
     margin: 0;
     padding: 0;
 }
+
+.stack-list > li {
+    border-block-end: var(--border-w) solid var(--border);
+}
