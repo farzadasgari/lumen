@@ -2465,3 +2465,8 @@ textarea.form-control {
     background: var(--surface-3);
     color: var(--text);
 }
+
+.row-toggle i {
+    transition: rotate var(--dur) var(--ease);
+    display: block;
+}
