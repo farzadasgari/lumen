@@ -2495,3 +2495,9 @@ textarea.form-control {
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: var(--sp-4);
 }
+
+.detail-item .k {
+    font-size: var(--fs-xs);
+    color: var(--text-subtle);
+    margin-block-end: 3px;
+}
