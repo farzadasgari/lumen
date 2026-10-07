@@ -2552,3 +2552,8 @@ a.media-row:hover {
     color: var(--text-muted);
     line-height: 1.4;
 }
+
+.media-row-end {
+    flex: 0 0 auto;
+    text-align: end;
+}
