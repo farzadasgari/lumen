@@ -2620,3 +2620,9 @@ a.media-row:hover {
     background: var(--danger-soft);
     color: var(--danger);
 }
+
+.timeline-marker.is-warning {
+    border-color: var(--warning);
+    background: var(--warning-soft);
+    color: var(--warning);
+}
