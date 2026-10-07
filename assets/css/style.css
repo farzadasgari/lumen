@@ -2284,3 +2284,11 @@ textarea.form-control {
 .step.is-done .step-label {
     color: var(--text);
 }
+
+.table-wrap {
+    position: relative;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    min-width: 0;
+}
