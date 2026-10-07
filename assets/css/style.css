@@ -2298,3 +2298,14 @@ textarea.form-control {
     height: var(--row-h);
     background: transparent;
 }
+
+.table thead th {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+    color: var(--text-muted);
+    background: var(--surface-2);
+    border-block-end: var(--border-w) solid var(--border);
+    white-space: nowrap;
+    height: 42px;
+    vertical-align: middle;
+}
