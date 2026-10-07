@@ -2381,3 +2381,7 @@ textarea.form-control {
     opacity: 1;
     color: var(--primary);
 }
+
+.th-sort[aria-sort="descending"] .sort-ind {
+    rotate: 180deg;
+}
