@@ -2474,3 +2474,7 @@ textarea.form-control {
 .row-toggle[aria-expanded="true"] i {
     rotate: 90deg;
 }
+
+[dir="rtl"] .row-toggle i {
+    scale: -1 1;
+}
