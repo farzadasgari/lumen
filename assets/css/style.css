@@ -2309,3 +2309,8 @@ textarea.form-control {
     height: 42px;
     vertical-align: middle;
 }
+
+.table tbody td {
+    border-block-end: var(--border-w) solid var(--border);
+    color: var(--text);
+}
