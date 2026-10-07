@@ -2675,3 +2675,13 @@ a.media-row:hover {
     font-size: var(--fs-md);
     margin: 0 0 var(--sp-4);
 }
+
+.spinner {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--border-strong);
+    border-top-color: var(--primary);
+    animation: spin 700ms linear infinite;
+    display: inline-block;
+}
