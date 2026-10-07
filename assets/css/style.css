@@ -2292,3 +2292,9 @@ textarea.form-control {
     scrollbar-width: thin;
     min-width: 0;
 }
+
+.table > :not(caption) > * > * {
+    padding: 0 var(--sp-4);
+    height: var(--row-h);
+    background: transparent;
+}
