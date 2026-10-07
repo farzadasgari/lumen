@@ -2411,3 +2411,8 @@ textarea.form-control {
 .bulk-bar[hidden] {
     display: none;
 }
+
+.table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
