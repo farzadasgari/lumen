@@ -2322,3 +2322,7 @@ textarea.form-control {
 .table-hover tbody tr {
     transition: var(--dur-fast) var(--ease);
 }
+
+.table-hover tbody tr:hover td {
+    background: var(--surface-2);
+}
