@@ -2702,3 +2702,11 @@ a.media-row:hover {
     gap: 4px;
     align-items: center;
 }
+
+.dots span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary);
+    animation: dots 1.2s var(--ease) infinite;
+}
