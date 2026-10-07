@@ -2664,3 +2664,8 @@ a.media-row:hover {
     color: var(--text-subtle);
     font-size: 2rem;
 }
+
+.empty h3 {
+    font-size: var(--fs-lg);
+    margin: 0 0 6px;
+}
