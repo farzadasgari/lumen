@@ -2685,3 +2685,14 @@ a.media-row:hover {
     animation: spin 700ms linear infinite;
     display: inline-block;
 }
+
+.spinner-lg {
+    width: 34px;
+    height: 34px;
+    border-width: 3px;
+}
+
+.spinner-sm {
+    width: 14px;
+    height: 14px;
+}
