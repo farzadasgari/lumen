@@ -2423,3 +2423,8 @@ textarea.form-control {
     z-index: 1;
     background: var(--surface);
 }
+
+.table-scroll thead .col-pin {
+    background: var(--surface-2);
+    z-index: 3;
+}
