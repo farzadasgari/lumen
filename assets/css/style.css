@@ -2651,3 +2651,16 @@ a.media-row:hover {
     max-width: 420px;
     margin-inline: auto;
 }
+
+.empty-art {
+    width: 76px;
+    height: 76px;
+    margin: 0 auto var(--sp-4);
+    border-radius: var(--radius-xl);
+    display: grid;
+    place-items: center;
+    background: var(--surface-2);
+    border: var(--border-w) solid var(--border);
+    color: var(--text-subtle);
+    font-size: 2rem;
+}
