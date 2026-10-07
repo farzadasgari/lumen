@@ -2573,3 +2573,8 @@ a.media-row:hover {
     width: 2px;
     background: var(--border);
 }
+
+.timeline-item {
+    position: relative;
+    padding: 0 0 var(--sp-5) 44px;
+}
