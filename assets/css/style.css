@@ -2333,3 +2333,9 @@ textarea.form-control {
     text-align: end;
     letter-spacing: -0.01em;
 }
+
+.table .col-actions {
+    width: 1%;
+    white-space: nowrap;
+    text-align: end;
+}
