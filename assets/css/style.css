@@ -2339,3 +2339,8 @@ textarea.form-control {
     white-space: nowrap;
     text-align: end;
 }
+
+.table .col-check {
+    width: 1%;
+    padding-inline-end: 0;
+}
