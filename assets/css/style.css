@@ -2485,3 +2485,7 @@ textarea.form-control {
     height: auto !important;
     border-block-end: var(--border-w) solid var(--border);
 }
+
+.row-detail-inner {
+    padding: var(--sp-4);
+}
