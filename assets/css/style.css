@@ -2314,3 +2314,7 @@ textarea.form-control {
     border-block-end: var(--border-w) solid var(--border);
     color: var(--text);
 }
+
+.table tbody tr:last-child td {
+    border-block-end: none;
+}
