@@ -2470,3 +2470,7 @@ textarea.form-control {
     transition: rotate var(--dur) var(--ease);
     display: block;
 }
+
+.row-toggle[aria-expanded="true"] i {
+    rotate: 90deg;
+}
