@@ -2540,3 +2540,9 @@ a.media-row:hover {
     flex: 1 1 auto;
     min-width: 0;
 }
+
+.media-row-title {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+    line-height: 1.35;
+}
