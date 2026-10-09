@@ -3231,3 +3231,12 @@ a.media-row:hover {
     color: var(--text-muted);
     margin-block-start: 2px;
 }
+
+.fa-toast-x {
+    border: none;
+    background: none;
+    color: var(--text-subtle);
+    padding: 0 2px;
+    line-height: 1;
+    font-size: 1rem;
+}
