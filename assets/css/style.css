@@ -3492,3 +3492,8 @@ a.media-row:hover {
     display: inline-grid;
     place-items: center;
 }
+
+.gauge svg {
+    transform: rotate(-90deg);
+    display: block;
+}
