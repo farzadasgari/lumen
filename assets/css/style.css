@@ -3601,3 +3601,9 @@ a.media-row:hover {
     cursor: pointer;
     transition: var(--dur-fast) var(--ease);
 }
+
+.mail-item:hover {
+    background: var(--surface-2);
+    text-decoration: none;
+    color: var(--text);
+}
