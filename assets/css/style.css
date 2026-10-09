@@ -3546,3 +3546,10 @@ a.media-row:hover {
 .app-frame-3 {
     grid-template-columns: 232px 320px 1fr;
 }
+
+.app-pane {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+}
