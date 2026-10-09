@@ -3531,3 +3531,14 @@ a.media-row:hover {
     font-size: var(--fs-2xs);
     color: var(--text-subtle);
 }
+
+.app-frame {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-lg);
+    background: var(--surface);
+    overflow: hidden;
+    height: calc(100vh - var(--navbar-h) - var(--sp-6) - 92px);
+    min-height: 520px;
+}
