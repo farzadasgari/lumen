@@ -2991,3 +2991,8 @@ a.media-row:hover {
     color: var(--primary-contrast);
     border-color: var(--primary-fill);
 }
+
+.customizer-fab i {
+    writing-mode: horizontal-tb;
+    font-size: 1rem;
+}
