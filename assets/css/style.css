@@ -2932,3 +2932,15 @@ a.media-row:hover {
     font-size: var(--fs-xs);
     color: var(--text-subtle);
 }
+
+.palette-foot {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-4);
+    flex-wrap: wrap;
+    padding: 9px var(--sp-4);
+    border-block-start: var(--border-w) solid var(--border);
+    background: var(--surface-2);
+    font-size: var(--fs-xs);
+    color: var(--text-subtle);
+}
