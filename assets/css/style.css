@@ -3513,3 +3513,9 @@ a.media-row:hover {
     stroke-linecap: round;
     transition: 900ms var(--ease);
 }
+
+.gauge-label {
+    position: absolute;
+    text-align: center;
+    line-height: 1.15;
+}
