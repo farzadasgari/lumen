@@ -2950,3 +2950,27 @@ a.media-row:hover {
     align-items: center;
     gap: 5px;
 }
+
+.customizer-fab {
+    position: fixed;
+    right: 0;
+    left: auto;
+    top: 50%;
+    translate: 0 -50%;
+    z-index: var(--z-customizer);
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 11px 13px;
+    border: var(--border-w) solid var(--border);
+    border-right: none;
+    border-top-left-radius: var(--radius-md);
+    border-bottom-left-radius: var(--radius-md);
+    background: var(--surface);
+    color: var(--text);
+    box-shadow: var(--shadow-md);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+    writing-mode: vertical-rl;
+    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
