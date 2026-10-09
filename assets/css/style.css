@@ -3214,3 +3214,8 @@ a.media-row:hover {
     line-height: 1.3;
     flex: 0 0 auto;
 }
+
+.nx-toast-main {
+    flex: 1 1 auto;
+    min-width: 0;
+}
