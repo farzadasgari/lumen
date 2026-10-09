@@ -3133,3 +3133,14 @@ a.media-row:hover {
 .seg-btn i {
     font-size: 0.95rem;
 }
+
+.toast-stack {
+    position: fixed;
+    z-index: var(--z-toast);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: var(--sp-4);
+    pointer-events: none;
+    max-width: min(380px, calc(100vw - 16px));
+}
