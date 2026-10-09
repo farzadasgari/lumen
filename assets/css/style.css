@@ -2841,3 +2841,8 @@ a.media-row:hover {
     backdrop-filter: blur(1px);
     border-radius: inherit;
 }
+
+.palette-dialog {
+    max-width: 620px;
+    margin-top: 8vh;
+}
