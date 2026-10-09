@@ -3219,3 +3219,9 @@ a.media-row:hover {
     flex: 1 1 auto;
     min-width: 0;
 }
+
+.nx-toast-title {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semibold);
+    line-height: 1.35;
+}
