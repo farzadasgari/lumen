@@ -3654,3 +3654,12 @@ a.media-row:hover {
     grid-column: 3 / -1;
     font-size: var(--fs-sm);
 }
+
+.mail-excerpt {
+    grid-column: 3 / -1;
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
