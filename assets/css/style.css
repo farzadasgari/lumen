@@ -3292,3 +3292,9 @@ a.media-row:hover {
     background: var(--surface-2);
     color: var(--text);
 }
+
+.alert > i:first-child {
+    font-size: 1.0625rem;
+    line-height: 1.35;
+    flex: 0 0 auto;
+}
