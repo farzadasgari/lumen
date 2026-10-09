@@ -2985,3 +2985,9 @@ a.media-row:hover {
     border-top-right-radius: var(--radius-md);
     border-bottom-right-radius: var(--radius-md);
 }
+
+.customizer-fab:hover {
+    background: var(--primary-fill);
+    color: var(--primary-contrast);
+    border-color: var(--primary-fill);
+}
