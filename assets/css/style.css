@@ -3468,3 +3468,9 @@ a.media-row:hover {
 .progress-sm {
     height: 4px;
 }
+
+.progress-labeled {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
