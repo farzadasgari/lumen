@@ -2846,3 +2846,11 @@ a.media-row:hover {
     max-width: 620px;
     margin-top: 8vh;
 }
+
+.palette {
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl);
+    overflow: hidden;
+    background: var(--surface);
+}
