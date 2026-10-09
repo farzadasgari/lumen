@@ -3519,3 +3519,10 @@ a.media-row:hover {
     text-align: center;
     line-height: 1.15;
 }
+
+.gauge-num {
+    font-family: var(--font-mono);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-semibold);
+    letter-spacing: -0.03em;
+}
