@@ -3420,3 +3420,11 @@ a.media-row:hover {
     gap: 4px 10px;
     align-items: baseline;
 }
+
+.rank-name {
+    font-size: var(--fs-md);
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
