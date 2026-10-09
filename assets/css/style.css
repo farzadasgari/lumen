@@ -2878,3 +2878,7 @@ a.media-row:hover {
     color: var(--text);
     min-width: 0;
 }
+
+.palette-input::placeholder {
+    color: var(--text-subtle);
+}
