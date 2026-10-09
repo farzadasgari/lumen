@@ -3413,3 +3413,10 @@ a.media-row:hover {
     flex-direction: column;
     gap: 14px;
 }
+
+.rank-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4px 10px;
+    align-items: baseline;
+}
