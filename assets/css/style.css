@@ -2974,3 +2974,14 @@ a.media-row:hover {
     writing-mode: vertical-rl;
     transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
 }
+
+[dir="rtl"] .customizer-fab {
+    right: auto;
+    left: 0;
+    border-right: var(--border-w) solid var(--border);
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: var(--radius-md);
+    border-bottom-right-radius: var(--radius-md);
+}
