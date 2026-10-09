@@ -3044,3 +3044,43 @@ a.media-row:hover {
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
 }
+
+.swatch {
+    aspect-ratio: 1;
+    border-radius: var(--radius-md);
+    padding: 0;
+    border: 2px solid transparent;
+    position: relative;
+    cursor: pointer;
+    transition: transform var(--dur-fast) var(--ease);
+    overflow: hidden;
+}
+
+.swatch::after {
+    content: '';
+    position: absolute;
+    inset: 3px;
+    border-radius: 5px;
+    background: var(--sw);
+}
+
+.swatch:hover {
+    transform: scale(1.06);
+}
+
+.swatch[aria-checked="true"] {
+    border-color: var(--text);
+}
+
+.swatch[aria-checked="true"]::before {
+    content: '\F26E';
+    font-family: 'bootstrap-icons';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 1rem;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 0.5);
+}
