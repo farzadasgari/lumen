@@ -3607,3 +3607,11 @@ a.media-row:hover {
     text-decoration: none;
     color: var(--text);
 }
+
+.mail-item.is-active {
+    background: var(--primary-softer);
+}
+
+.mail-item.is-unread .mail-from, .mail-item.is-unread .mail-subject {
+    font-weight: var(--fw-semibold);
+}
