@@ -3113,3 +3113,23 @@ a.media-row:hover {
     white-space: nowrap;
     transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
 }
+
+.seg-btn:hover {
+    color: var(--text);
+}
+
+.seg-btn[aria-checked="true"] {
+    background: var(--surface);
+    color: var(--text);
+    box-shadow: var(--shadow-xs);
+    font-weight: var(--fw-semibold);
+}
+
+.seg-stack {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+}
+
+.seg-btn i {
+    font-size: 0.95rem;
+}
