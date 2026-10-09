@@ -3460,3 +3460,11 @@ a.media-row:hover {
     background: var(--primary-fill);
     border-radius: var(--radius-pill);
 }
+
+.progress-lg {
+    height: 11px;
+}
+
+.progress-sm {
+    height: 4px;
+}
