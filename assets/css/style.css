@@ -2854,3 +2854,12 @@ a.media-row:hover {
     overflow: hidden;
     background: var(--surface);
 }
+
+.palette-input-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 var(--sp-4);
+    height: 54px;
+    border-block-end: var(--border-w) solid var(--border);
+}
