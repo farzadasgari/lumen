@@ -2863,3 +2863,8 @@ a.media-row:hover {
     height: 54px;
     border-block-end: var(--border-w) solid var(--border);
 }
+
+.palette-input-row > i {
+    color: var(--text-subtle);
+    font-size: 1.125rem;
+}
