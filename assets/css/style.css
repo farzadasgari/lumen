@@ -3005,3 +3005,12 @@ a.media-row:hover {
     border-block-end: var(--border-w) solid var(--border);
     padding: var(--sp-4);
 }
+
+.customizer .offcanvas-body {
+    padding: 0;
+}
+
+.cz-section {
+    padding: var(--sp-4);
+    border-block-end: var(--border-w) solid var(--border);
+}
