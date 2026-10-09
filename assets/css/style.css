@@ -2916,3 +2916,9 @@ a.media-row:hover {
     color: var(--primary-text);
     text-decoration: none;
 }
+
+.palette-item > i:first-child {
+    flex: 0 0 18px;
+    text-align: center;
+    color: var(--text-subtle);
+}
