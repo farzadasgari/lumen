@@ -3170,3 +3170,17 @@ a.media-row:hover {
     inset-inline-start: 0;
     flex-direction: column-reverse;
 }
+
+.nx-toast {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    padding: 13px 14px;
+    width: 100%;
+    background: var(--surface);
+    border: var(--border-w) solid var(--border);
+    border-inline-start: 3px solid var(--text-subtle);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    animation: toast-in var(--dur-slow) var(--ease-out) both;
+}
