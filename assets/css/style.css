@@ -2910,3 +2910,9 @@ a.media-row:hover {
     width: 100%;
     text-align: start;
 }
+
+.palette-item:hover, .palette-item.is-active {
+    background: var(--primary-soft);
+    color: var(--primary-text);
+    text-decoration: none;
+}
