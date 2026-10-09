@@ -3567,3 +3567,8 @@ a.media-row:hover {
     gap: 10px;
     min-height: 56px;
 }
+
+.app-pane-head h2, .app-pane-head h3 {
+    margin: 0;
+    font-size: var(--fs-lg);
+}
