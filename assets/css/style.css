@@ -3557,3 +3557,13 @@ a.media-row:hover {
 .app-pane + .app-pane {
     border-inline-start: var(--border-w) solid var(--border);
 }
+
+.app-pane-head {
+    flex: 0 0 auto;
+    padding: 12px var(--sp-4);
+    border-block-end: var(--border-w) solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 56px;
+}
