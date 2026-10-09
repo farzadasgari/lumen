@@ -2882,3 +2882,9 @@ a.media-row:hover {
 .palette-input::placeholder {
     color: var(--text-subtle);
 }
+
+.palette-results {
+    max-height: min(56vh, 420px);
+    overflow-y: auto;
+    padding: var(--sp-2);
+}
