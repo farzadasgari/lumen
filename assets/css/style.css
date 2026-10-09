@@ -3244,3 +3244,39 @@ a.media-row:hover {
 .fa-toast-x:hover {
     color: var(--text);
 }
+
+.fa-toast.is-success {
+    border-inline-start-color: var(--success);
+}
+
+.fa-toast.is-success > i:first-child {
+    color: var(--success);
+}
+
+.fa-toast.is-error {
+    border-inline-start-color: var(--danger);
+}
+
+.fa-toast.is-error > i:first-child {
+    color: var(--danger);
+}
+
+.fa-toast.is-warning {
+    border-inline-start-color: var(--warning);
+}
+
+.fa-toast.is-warning > i:first-child {
+    color: var(--warning);
+}
+
+.fa-toast.is-info {
+    border-inline-start-color: var(--info);
+}
+
+.fa-toast.is-info > i:first-child {
+    color: var(--info);
+}
+
+.fa-toast.is-loading {
+    border-inline-start-color: var(--primary);
+}
