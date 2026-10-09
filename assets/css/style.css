@@ -3553,3 +3553,7 @@ a.media-row:hover {
     min-width: 0;
     min-height: 0;
 }
+
+.app-pane + .app-pane {
+    border-inline-start: var(--border-w) solid var(--border);
+}
