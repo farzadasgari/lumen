@@ -3354,3 +3354,28 @@ a.media-row:hover {
 .alert-info > i:first-child {
     color: var(--info);
 }
+
+.chart-box {
+    position: relative;
+    width: 100%;
+}
+
+.chart-box > canvas {
+    display: block;
+}
+
+.chart-h-sm {
+    height: 180px;
+}
+
+.chart-h-md {
+    height: 260px;
+}
+
+.chart-h-lg {
+    height: 320px;
+}
+
+.chart-h-xl {
+    height: 400px;
+}
