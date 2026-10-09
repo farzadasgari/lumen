@@ -3641,3 +3641,11 @@ a.media-row:hover {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.mail-time {
+    font-size: var(--fs-2xs);
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    white-space: nowrap;
+    grid-column: 4;
+}
