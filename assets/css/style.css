@@ -2888,3 +2888,10 @@ a.media-row:hover {
     overflow-y: auto;
     padding: var(--sp-2);
 }
+
+.palette-group-title {
+    font-size: var(--fs-2xs);
+    font-weight: var(--fw-semibold);
+    color: var(--text-subtle);
+    padding: 10px 10px 5px;
+}
