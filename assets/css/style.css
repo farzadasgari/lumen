@@ -3628,3 +3628,16 @@ a.media-row:hover {
     color: var(--text-subtle);
     line-height: 1;
 }
+
+.mail-star.is-on {
+    color: var(--warning);
+}
+
+.mail-from {
+    font-size: var(--fs-md);
+    grid-column: 3;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
