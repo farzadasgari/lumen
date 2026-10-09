@@ -3449,3 +3449,9 @@ a.media-row:hover {
     border-radius: var(--radius-pill);
     background: var(--primary);
 }
+
+.progress {
+    height: 7px;
+    border-radius: var(--radius-pill);
+    background: var(--surface-3);
+}
