@@ -3486,3 +3486,9 @@ a.media-row:hover {
     min-width: 38px;
     text-align: end;
 }
+
+.gauge {
+    position: relative;
+    display: inline-grid;
+    place-items: center;
+}
