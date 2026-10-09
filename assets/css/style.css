@@ -3208,3 +3208,9 @@ a.media-row:hover {
         scale: 0.97;
     }
 }
+
+.nx-toast > i:first-child {
+    font-size: 1.0625rem;
+    line-height: 1.3;
+    flex: 0 0 auto;
+}
