@@ -2821,3 +2821,9 @@ a.media-row:hover {
     background: var(--bg);
     transition: opacity var(--dur-slow) var(--ease), visibility var(--dur-slow);
 }
+
+.page-loader.is-done {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
