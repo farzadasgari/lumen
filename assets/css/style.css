@@ -3615,3 +3615,8 @@ a.media-row:hover {
 .mail-item.is-unread .mail-from, .mail-item.is-unread .mail-subject {
     font-weight: var(--fw-semibold);
 }
+
+.mail-item.is-unread {
+    border-inline-start: 3px solid var(--primary);
+    padding-inline-start: calc(var(--sp-4) - 3px);
+}
