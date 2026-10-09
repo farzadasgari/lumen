@@ -3620,3 +3620,11 @@ a.media-row:hover {
     border-inline-start: 3px solid var(--primary);
     padding-inline-start: calc(var(--sp-4) - 3px);
 }
+
+.mail-star {
+    border: none;
+    background: none;
+    padding: 0;
+    color: var(--text-subtle);
+    line-height: 1;
+}
