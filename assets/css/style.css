@@ -2926,3 +2926,9 @@ a.media-row:hover {
 .palette-item.is-active > i:first-child, .palette-item:hover > i:first-child {
     color: var(--primary);
 }
+
+.palette-item-meta {
+    margin-inline-start: auto;
+    font-size: var(--fs-xs);
+    color: var(--text-subtle);
+}
