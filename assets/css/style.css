@@ -3501,3 +3501,8 @@ a.media-row:hover {
 [dir="rtl"] .gauge svg {
     transform: rotate(-90deg) scaleY(-1);
 }
+
+.gauge-track {
+    stroke: var(--surface-3);
+    fill: none;
+}
