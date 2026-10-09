@@ -3401,3 +3401,9 @@ a.media-row:hover {
     border-radius: 3px;
     flex: 0 0 auto;
 }
+
+.chart-legend-value {
+    font-family: var(--font-mono);
+    color: var(--text);
+    font-weight: var(--fw-medium);
+}
