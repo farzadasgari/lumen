@@ -3298,3 +3298,9 @@ a.media-row:hover {
     line-height: 1.35;
     flex: 0 0 auto;
 }
+
+.alert-heading {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semibold);
+    margin: 0 0 3px;
+}
