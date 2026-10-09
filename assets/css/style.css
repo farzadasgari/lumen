@@ -3688,3 +3688,10 @@ a.media-row:hover {
     color: var(--primary-text);
     font-weight: var(--fw-semibold);
 }
+
+.mail-folder .count {
+    margin-inline-start: auto;
+    font-family: var(--font-mono);
+    font-size: var(--fs-2xs);
+    color: var(--text-subtle);
+}
