@@ -3474,3 +3474,15 @@ a.media-row:hover {
     align-items: center;
     gap: 10px;
 }
+
+.progress-labeled .progress {
+    flex: 1 1 auto;
+}
+
+.progress-labeled .pct {
+    font-family: var(--font-mono);
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
+    min-width: 38px;
+    text-align: end;
+}
