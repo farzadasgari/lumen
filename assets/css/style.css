@@ -3304,3 +3304,7 @@ a.media-row:hover {
     font-weight: var(--fw-semibold);
     margin: 0 0 3px;
 }
+
+.alert p:last-child {
+    margin-block-end: 0;
+}
