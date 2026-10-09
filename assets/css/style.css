@@ -3428,3 +3428,10 @@ a.media-row:hover {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.rank-val {
+    font-family: var(--font-mono);
+    font-size: var(--fs-sm);
+    font-variant-numeric: tabular-nums;
+    color: var(--text-muted);
+}
