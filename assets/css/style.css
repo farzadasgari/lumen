@@ -3407,3 +3407,9 @@ a.media-row:hover {
     color: var(--text);
     font-weight: var(--fw-medium);
 }
+
+.rank-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
