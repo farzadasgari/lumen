@@ -3497,3 +3497,7 @@ a.media-row:hover {
     transform: rotate(-90deg);
     display: block;
 }
+
+[dir="rtl"] .gauge svg {
+    transform: rotate(-90deg) scaleY(-1);
+}
