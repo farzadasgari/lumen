@@ -3014,3 +3014,14 @@ a.media-row:hover {
     padding: var(--sp-4);
     border-block-end: var(--border-w) solid var(--border);
 }
+
+.cz-title {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+    color: var(--text);
+    margin: 0 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sp-2);
+}
