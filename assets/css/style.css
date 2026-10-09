@@ -3695,3 +3695,7 @@ a.media-row:hover {
     font-size: var(--fs-2xs);
     color: var(--text-subtle);
 }
+
+.mail-folder.is-active .count {
+    color: var(--primary-text);
+}
