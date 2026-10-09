@@ -3095,3 +3095,21 @@ a.media-row:hover {
     border: var(--border-w) solid var(--border);
     border-radius: var(--radius-md);
 }
+
+.seg-btn {
+    border: none;
+    background: none;
+    padding: 7px 6px;
+    border-radius: var(--radius-sm);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+    color: var(--text-muted);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    min-height: 32px;
+    white-space: nowrap;
+    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
