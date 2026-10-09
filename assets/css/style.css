@@ -2922,3 +2922,7 @@ a.media-row:hover {
     text-align: center;
     color: var(--text-subtle);
 }
+
+.palette-item.is-active > i:first-child, .palette-item:hover > i:first-child {
+    color: var(--primary);
+}
