@@ -3676,3 +3676,9 @@ a.media-row:hover {
     font-weight: var(--fw-medium);
     min-height: 38px;
 }
+
+.mail-folder:hover {
+    background: var(--surface-2);
+    color: var(--text);
+    text-decoration: none;
+}
