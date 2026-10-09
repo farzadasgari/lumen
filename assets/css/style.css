@@ -2895,3 +2895,18 @@ a.media-row:hover {
     color: var(--text-subtle);
     padding: 10px 10px 5px;
 }
+
+.palette-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 10px;
+    border-radius: var(--radius-md);
+    color: var(--text);
+    font-size: var(--fs-md);
+    cursor: pointer;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: start;
+}
