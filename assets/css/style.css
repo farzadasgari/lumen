@@ -3280,3 +3280,15 @@ a.media-row:hover {
 .fa-toast.is-loading {
     border-inline-start-color: var(--primary);
 }
+
+.alert {
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 13px 15px;
+    font-size: var(--fs-md);
+    display: flex;
+    gap: 11px;
+    align-items: flex-start;
+    background: var(--surface-2);
+    color: var(--text);
+}
