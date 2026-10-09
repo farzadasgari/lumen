@@ -3682,3 +3682,9 @@ a.media-row:hover {
     color: var(--text);
     text-decoration: none;
 }
+
+.mail-folder.is-active {
+    background: var(--primary-soft);
+    color: var(--primary-text);
+    font-weight: var(--fw-semibold);
+}
