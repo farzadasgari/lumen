@@ -2467,7 +2467,7 @@ textarea.form-control {
 }
 
 .row-toggle i {
-    transition: rotate var(--dur) var(--ease);
+    transition: var(--dur) var(--ease);
     display: block;
 }
 
@@ -2972,7 +2972,7 @@ a.media-row:hover {
     font-size: var(--fs-sm);
     font-weight: var(--fw-medium);
     writing-mode: vertical-rl;
-    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
 }
 
 [dir="rtl"] .customizer-fab {
@@ -3052,7 +3052,7 @@ a.media-row:hover {
     border: 2px solid transparent;
     position: relative;
     cursor: pointer;
-    transition: transform var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
     overflow: hidden;
 }
 
@@ -3111,7 +3111,7 @@ a.media-row:hover {
     gap: 5px;
     min-height: 32px;
     white-space: nowrap;
-    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
 }
 
 .seg-btn:hover {
@@ -3239,4 +3239,8 @@ a.media-row:hover {
     padding: 0 2px;
     line-height: 1;
     font-size: 1rem;
+}
+
+.fa-toast-x:hover {
+    color: var(--text);
 }
