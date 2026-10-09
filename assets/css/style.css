@@ -3572,3 +3572,10 @@ a.media-row:hover {
     margin: 0;
     font-size: var(--fs-lg);
 }
+
+.app-pane-body {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    min-height: 0;
+    overscroll-behavior: contain;
+}
