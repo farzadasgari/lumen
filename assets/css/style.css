@@ -3589,3 +3589,15 @@ a.media-row:hover {
 .pane-back {
     display: none;
 }
+
+.mail-item {
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+    gap: 4px 10px;
+    align-items: start;
+    padding: 12px var(--sp-4);
+    border-block-end: var(--border-w) solid var(--border);
+    color: var(--text);
+    cursor: pointer;
+    transition: var(--dur-fast) var(--ease);
+}
