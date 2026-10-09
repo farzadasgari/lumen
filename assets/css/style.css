@@ -2827,3 +2827,17 @@ a.media-row:hover {
     visibility: hidden;
     pointer-events: none;
 }
+
+.overlay-loading {
+    position: relative;
+}
+
+.overlay-loading::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    background: rgb(from var(--surface) r g b / 0.7);
+    backdrop-filter: blur(1px);
+    border-radius: inherit;
+}
