@@ -3649,3 +3649,8 @@ a.media-row:hover {
     white-space: nowrap;
     grid-column: 4;
 }
+
+.mail-subject {
+    grid-column: 3 / -1;
+    font-size: var(--fs-sm);
+}
