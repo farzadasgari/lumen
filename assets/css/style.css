@@ -3084,3 +3084,14 @@ a.media-row:hover {
     font-size: 1rem;
     text-shadow: 0 1px 3px rgb(0 0 0 / 0.5);
 }
+
+.seg {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 3px;
+    padding: 3px;
+    background: var(--surface-2);
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-md);
+}
