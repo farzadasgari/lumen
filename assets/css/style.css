@@ -3542,3 +3542,7 @@ a.media-row:hover {
     height: calc(100vh - var(--navbar-h) - var(--sp-6) - 92px);
     min-height: 520px;
 }
+
+.app-frame-3 {
+    grid-template-columns: 232px 320px 1fr;
+}
