@@ -3025,3 +3025,9 @@ a.media-row:hover {
     justify-content: space-between;
     gap: var(--sp-2);
 }
+
+.cz-desc {
+    font-size: var(--fs-xs);
+    color: var(--text-subtle);
+    margin: 0 0 12px;
+}
