@@ -3394,3 +3394,10 @@ a.media-row:hover {
     font-size: var(--fs-sm);
     color: var(--text-muted);
 }
+
+.chart-legend-swatch {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    flex: 0 0 auto;
+}
