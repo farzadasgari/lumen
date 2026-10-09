@@ -3144,3 +3144,29 @@ a.media-row:hover {
     pointer-events: none;
     max-width: min(380px, calc(100vw - 16px));
 }
+
+.toast-stack > * {
+    pointer-events: auto;
+}
+
+.toast-stack[data-pos="top-right"] {
+    top: 0;
+    inset-inline-end: 0;
+}
+
+.toast-stack[data-pos="top-left"] {
+    top: 0;
+    inset-inline-start: 0;
+}
+
+.toast-stack[data-pos="bottom-right"] {
+    bottom: 0;
+    inset-inline-end: 0;
+    flex-direction: column-reverse;
+}
+
+.toast-stack[data-pos="bottom-left"] {
+    bottom: 0;
+    inset-inline-start: 0;
+    flex-direction: column-reverse;
+}
