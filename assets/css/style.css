@@ -3579,3 +3579,13 @@ a.media-row:hover {
     min-height: 0;
     overscroll-behavior: contain;
 }
+
+.app-pane-foot {
+    flex: 0 0 auto;
+    padding: 12px var(--sp-4);
+    border-block-start: var(--border-w) solid var(--border);
+}
+
+.pane-back {
+    display: none;
+}
