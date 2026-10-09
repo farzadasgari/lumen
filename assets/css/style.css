@@ -3506,3 +3506,10 @@ a.media-row:hover {
     stroke: var(--surface-3);
     fill: none;
 }
+
+.gauge-fill {
+    stroke: var(--primary);
+    fill: none;
+    stroke-linecap: round;
+    transition: 900ms var(--ease);
+}
