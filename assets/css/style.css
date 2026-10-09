@@ -3663,3 +3663,16 @@ a.media-row:hover {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+
+.mail-folder {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 10px;
+    border-radius: var(--radius-md);
+    color: var(--text-muted);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+    min-height: 38px;
+}
