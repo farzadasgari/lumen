@@ -3308,3 +3308,49 @@ a.media-row:hover {
 .alert p:last-child {
     margin-block-end: 0;
 }
+
+.alert-primary {
+    background: var(--primary-softer);
+    border-color: var(--primary-edge);
+    color: var(--text);
+}
+
+.alert-primary > i:first-child {
+    color: var(--primary-text);
+}
+
+.alert-success {
+    background: var(--success-soft);
+    border-color: rgb(var(--success-rgb) / 0.35);
+}
+
+.alert-success > i:first-child {
+    color: var(--success);
+}
+
+.alert-warning {
+    background: var(--warning-soft);
+    border-color: rgb(var(--warning-rgb) / 0.35);
+}
+
+.alert-warning > i:first-child {
+    color: var(--warning);
+}
+
+.alert-danger {
+    background: var(--danger-soft);
+    border-color: rgb(var(--danger-rgb) / 0.35);
+}
+
+.alert-danger > i:first-child {
+    color: var(--danger);
+}
+
+.alert-info {
+    background: var(--info-soft);
+    border-color: rgb(var(--info-rgb) / 0.35);
+}
+
+.alert-info > i:first-child {
+    color: var(--info);
+}
