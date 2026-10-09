@@ -3435,3 +3435,11 @@ a.media-row:hover {
     font-variant-numeric: tabular-nums;
     color: var(--text-muted);
 }
+
+.rank-track {
+    grid-column: 1 / -1;
+    height: 6px;
+    border-radius: var(--radius-pill);
+    background: var(--surface-3);
+    overflow: hidden;
+}
