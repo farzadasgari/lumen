@@ -2996,3 +2996,12 @@ a.media-row:hover {
     writing-mode: horizontal-tb;
     font-size: 1rem;
 }
+
+.customizer {
+    width: 340px;
+}
+
+.customizer .offcanvas-header {
+    border-block-end: var(--border-w) solid var(--border);
+    padding: var(--sp-4);
+}
