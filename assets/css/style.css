@@ -3031,3 +3031,10 @@ a.media-row:hover {
     color: var(--text-subtle);
     margin: 0 0 12px;
 }
+
+.cz-value {
+    font-family: var(--font-mono);
+    font-size: var(--fs-2xs);
+    color: var(--text-subtle);
+    font-weight: var(--fw-regular);
+}
