@@ -3880,3 +3880,10 @@ a.media-row:hover {
     border-color: var(--primary);
     background: var(--primary-softer);
 }
+
+.file-icon {
+    font-size: 2rem;
+    line-height: 1;
+    margin-block-end: 10px;
+    display: block;
+}
