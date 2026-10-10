@@ -4067,3 +4067,26 @@ a.media-row:hover {
 .cal-dow:last-child {
     border-inline-end: none;
 }
+
+.cal-cell {
+    min-height: 108px;
+    padding: 6px;
+    border-inline-end: var(--border-w) solid var(--border);
+    border-block-end: var(--border-w) solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    background: var(--surface);
+}
+
+.cal-cell:nth-child(7n) {
+    border-inline-end: none;
+}
+
+.cal-cell.is-out {
+    background: var(--surface-2);
+}
+
+.cal-cell.is-out .cal-date {
+    color: var(--text-subtle);
+}
