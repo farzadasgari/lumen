@@ -4634,3 +4634,9 @@ a.media-row:hover {
     gap: var(--sp-5);
     margin-block-end: var(--sp-5);
 }
+
+.invoice-totals {
+    margin-inline-start: auto;
+    max-width: 300px;
+    width: 100%;
+}
