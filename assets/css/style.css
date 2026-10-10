@@ -4177,3 +4177,10 @@ a.media-row:hover {
 .agenda-day.is-today .agenda-num {
     color: var(--primary-text);
 }
+
+.auth-shell {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+}
