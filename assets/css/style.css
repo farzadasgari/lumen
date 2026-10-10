@@ -4200,3 +4200,19 @@ a.media-row:hover {
     border-radius: var(--radius-xl);
     padding: var(--sp-6);
 }
+
+.auth-head {
+    text-align: center;
+    margin-block-end: var(--sp-5);
+}
+
+.auth-head h1 {
+    font-size: var(--fs-2xl);
+    margin: 0 0 6px;
+}
+
+.auth-head p {
+    color: var(--text-muted);
+    font-size: var(--fs-md);
+    margin: 0;
+}
