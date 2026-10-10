@@ -4105,3 +4105,16 @@ a.media-row:hover {
     color: var(--primary-contrast);
     font-weight: var(--fw-semibold);
 }
+
+.cal-event {
+    font-size: var(--fs-2xs);
+    padding: 2px 6px;
+    border-radius: var(--radius-sm);
+    background: var(--primary-soft);
+    color: var(--primary-text);
+    border-inline-start: 2px solid var(--primary);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
