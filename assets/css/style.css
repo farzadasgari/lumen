@@ -4648,3 +4648,11 @@ a.media-row:hover {
     padding: 7px 0;
     font-size: var(--fs-md);
 }
+
+.invoice-total-row.is-grand {
+    border-block-start: 2px solid var(--border-strong);
+    margin-block-start: 6px;
+    padding-block-start: 12px;
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-semibold);
+}
