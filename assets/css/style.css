@@ -4011,5 +4011,10 @@ a.media-row:hover {
     border-radius: var(--radius-md);
     padding: 12px;
     cursor: grab;
-    transition: border-color var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
+    transition: border-color var(--dur-fast) var(--ease), box-shadow var(--dur-slow) var(--ease);
+}
+
+.kanban-card:hover {
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-sm);
 }
