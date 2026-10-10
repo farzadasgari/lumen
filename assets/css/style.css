@@ -4297,3 +4297,9 @@ a.media-row:hover {
     font-weight: var(--fw-medium);
     max-width: 26ch;
 }
+
+.auth-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-4);
+}
