@@ -4303,3 +4303,10 @@ a.media-row:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: var(--sp-4);
 }
+
+.auth-stat-num {
+    font-family: var(--font-mono);
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-semibold);
+    letter-spacing: -0.03em;
+}
