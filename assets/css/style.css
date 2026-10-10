@@ -3750,3 +3750,10 @@ a.media-row:hover {
     border-start-start-radius: var(--radius-lg);
     border-start-end-radius: var(--radius-sm);
 }
+
+.chat-meta {
+    font-size: var(--fs-2xs);
+    color: var(--text-subtle);
+    margin-block-start: 4px;
+    font-family: var(--font-mono);
+}
