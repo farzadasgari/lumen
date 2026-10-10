@@ -4047,3 +4047,9 @@ a.media-row:hover {
     gap: 5px;
     flex-wrap: wrap;
 }
+
+.cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border-block-start: var(--border-w) solid var(--border);
+}
