@@ -4157,3 +4157,12 @@ a.media-row:hover {
     padding: var(--sp-3) 0;
     border-block-end: var(--border-w) solid var(--border);
 }
+
+.agenda-date {
+    text-align: center;
+}
+
+.agenda-dow {
+    font-size: var(--fs-2xs);
+    color: var(--text-subtle);
+}
