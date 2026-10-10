@@ -69,4 +69,11 @@
         padding-inline-end: var(--sp-3);
         gap: var(--sp-1);
     }
+
+
+    [data-navbar="floating"] .navbar-top,
+    [data-navbar="floating"][data-sidebar="mini"] .navbar-top,
+    [data-navbar="floating"][data-sidebar="hover"] .navbar-top {
+        inset-inline: var(--sp-3);
+    }
 }
