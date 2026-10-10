@@ -4377,3 +4377,20 @@ a.media-row:hover {
     font-size: var(--fs-md);
     font-weight: var(--fw-semibold);
 }
+
+.demo-preview {
+    padding: var(--sp-5);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-3);
+    align-items: center;
+}
+
+.demo-preview.is-block {
+    display: block;
+}
+
+.demo-preview.is-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
