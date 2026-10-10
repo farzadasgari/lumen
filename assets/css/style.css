@@ -3699,3 +3699,10 @@ a.media-row:hover {
 .mail-folder.is-active .count {
     color: var(--primary-text);
 }
+
+.chat-thread {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: var(--sp-4);
+}
