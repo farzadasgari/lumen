@@ -4347,3 +4347,10 @@ a.media-row:hover {
     color: var(--text-muted);
     margin: 0 0 var(--sp-5);
 }
+
+.error-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
