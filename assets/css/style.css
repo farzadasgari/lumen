@@ -4173,3 +4173,7 @@ a.media-row:hover {
     font-weight: var(--fw-semibold);
     line-height: 1.1;
 }
+
+.agenda-day.is-today .agenda-num {
+    color: var(--primary-text);
+}
