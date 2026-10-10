@@ -4362,3 +4362,18 @@ a.media-row:hover {
     background: var(--surface);
     margin-block-end: var(--sp-5);
 }
+
+.demo-head {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: 11px var(--sp-4);
+    border-block-end: var(--border-w) solid var(--border);
+    background: var(--surface-2);
+}
+
+.demo-head h3 {
+    margin: 0;
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semibold);
+}
