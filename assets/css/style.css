@@ -3796,3 +3796,20 @@ a.media-row:hover {
     min-height: 38px;
     max-height: 120px;
 }
+
+
+.conv-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 11px var(--sp-4);
+    border-block-end: var(--border-w) solid var(--border);
+    color: var(--text);
+    cursor: pointer;
+}
+
+.conv-item:hover {
+    background: var(--surface-2);
+    text-decoration: none;
+    color: var(--text);
+}
