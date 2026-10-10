@@ -3713,3 +3713,10 @@ a.media-row:hover {
     color: var(--text-subtle);
     margin: var(--sp-2) 0;
 }
+
+.chat-day span {
+    background: var(--surface-2);
+    padding: 3px 11px;
+    border-radius: var(--radius-pill);
+    border: var(--border-w) solid var(--border);
+}
