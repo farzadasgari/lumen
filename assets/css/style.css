@@ -3731,3 +3731,14 @@ a.media-row:hover {
     margin-inline-start: auto;
     flex-direction: row-reverse;
 }
+
+.chat-bubble {
+    padding: 9px 13px;
+    border-radius: var(--radius-lg);
+    background: var(--surface-2);
+    border: var(--border-w) solid var(--border);
+    font-size: var(--fs-md);
+    line-height: 1.45;
+    border-start-start-radius: var(--radius-sm);
+    word-break: break-word;
+}
