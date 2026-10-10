@@ -4702,3 +4702,7 @@ a.media-row:hover {
     border: var(--border-w) solid var(--border);
     border-radius: var(--radius-md);
 }
+
+.rounded-token {
+    border-radius: var(--radius-md);
+}
