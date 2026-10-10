@@ -4609,3 +4609,13 @@ a.media-row:hover {
     flex-direction: column;
     gap: 4px;
 }
+
+
+.invoice-sheet {
+    background: var(--surface);
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--sp-6);
+    max-width: 860px;
+    margin-inline: auto;
+}
