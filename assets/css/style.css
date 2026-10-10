@@ -4627,3 +4627,10 @@ a.media-row:hover {
     flex-wrap: wrap;
     margin-block-end: var(--sp-6);
 }
+
+.invoice-parties {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--sp-5);
+    margin-block-end: var(--sp-5);
+}
