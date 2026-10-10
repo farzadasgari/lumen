@@ -76,4 +76,23 @@
     [data-navbar="floating"][data-sidebar="hover"] .navbar-top {
         inset-inline: var(--sp-3);
     }
+
+    .sidebar,
+    [data-sidebar="mini"] .sidebar,
+    [data-sidebar="hover"] .sidebar {
+        width: min(300px, 84vw);
+        transform: translateX(-100%);
+        box-shadow: none;
+    }
+
+    [dir="rtl"] .sidebar,
+    [dir="rtl"][data-sidebar="mini"] .sidebar,
+    [dir="rtl"][data-sidebar="hover"] .sidebar {
+        transform: translateX(100%);
+    }
+
+    .sidebar.is-open {
+        transform: translateX(0) !important;
+        box-shadow: var(--shadow-xl);
+    }
 }
