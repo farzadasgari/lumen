@@ -4041,3 +4041,9 @@ a.media-row:hover {
     justify-content: space-between;
     gap: 8px;
 }
+
+.kanban-tags {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
