@@ -4640,3 +4640,11 @@ a.media-row:hover {
     max-width: 300px;
     width: 100%;
 }
+
+.invoice-total-row {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--sp-4);
+    padding: 7px 0;
+    font-size: var(--fs-md);
+}
