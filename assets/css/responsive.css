@@ -8,3 +8,17 @@
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     }
 }
+
+@media (min-width: 1920px) {
+    :root {
+        --content-max: 1720px;
+    }
+
+    [data-layout="fluid"] .app-content {
+        max-width: 1840px;
+    }
+
+    .grid-4.grid-expand {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+}
