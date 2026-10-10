@@ -4693,3 +4693,7 @@ a.media-row:hover {
     background: var(--border);
     margin-inline: var(--sp-1);
 }
+
+.surface-2 {
+    background: var(--surface-2);
+}
