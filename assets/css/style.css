@@ -4142,3 +4142,9 @@ a.media-row:hover {
     color: var(--info);
     border-inline-start-color: var(--info);
 }
+
+.cal-more {
+    font-size: var(--fs-2xs);
+    color: var(--text-subtle);
+    padding-inline-start: 6px;
+}
