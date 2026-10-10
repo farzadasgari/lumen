@@ -4788,3 +4788,9 @@ a.media-row:hover {
 .uptime-bar > span.is-down {
     background: var(--danger);
 }
+
+@media (max-width: 576px) {
+    .uptime-bar > span:nth-child(-n+30) {
+        display: none;
+    }
+}
