@@ -3790,3 +3790,9 @@ a.media-row:hover {
     align-items: flex-end;
     gap: 8px;
 }
+
+.chat-composer textarea {
+    resize: none;
+    min-height: 38px;
+    max-height: 120px;
+}
