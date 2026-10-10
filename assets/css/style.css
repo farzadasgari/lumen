@@ -3995,3 +3995,12 @@ a.media-row:hover {
     padding: 1px 6px;
     border-radius: var(--radius-pill);
 }
+
+.kanban-cards {
+    padding: var(--sp-3);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    min-height: 60px;
+}
