@@ -3813,3 +3813,12 @@ a.media-row:hover {
     text-decoration: none;
     color: var(--text);
 }
+
+.conv-item.is-active {
+    background: var(--primary-softer);
+}
+
+.conv-main {
+    flex: 1 1 auto;
+    min-width: 0;
+}
