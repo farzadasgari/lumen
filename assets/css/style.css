@@ -4544,3 +4544,14 @@ a.media-row:hover {
     width: 100%;
     height: auto;
 }
+
+.map-land {
+    fill: var(--surface-3);
+    stroke: var(--border-strong);
+    stroke-width: 0.6;
+}
+
+.map-land.is-hot {
+    fill: var(--primary-soft);
+    stroke: var(--primary-edge);
+}
