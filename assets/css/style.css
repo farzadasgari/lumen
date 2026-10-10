@@ -3846,3 +3846,9 @@ a.media-row:hover {
     font-family: var(--font-mono);
     flex: 0 0 auto;
 }
+
+.file-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: var(--sp-3);
+}
