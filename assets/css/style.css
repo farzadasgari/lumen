@@ -3822,3 +3822,11 @@ a.media-row:hover {
     flex: 1 1 auto;
     min-width: 0;
 }
+
+.conv-name {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
