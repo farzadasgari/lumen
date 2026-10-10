@@ -4229,3 +4229,10 @@ a.media-row:hover {
     text-decoration: none;
     color: var(--text);
 }
+
+.auth-foot {
+    text-align: center;
+    font-size: var(--fs-md);
+    color: var(--text-muted);
+    margin-block-start: var(--sp-5);
+}
