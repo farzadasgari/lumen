@@ -4406,3 +4406,16 @@ a.media-row:hover {
     color: var(--text-muted);
     max-height: 320px;
 }
+
+.demo-code code {
+    background: none;
+    color: inherit;
+    padding: 0;
+}
+
+.demo-label {
+    font-size: var(--fs-xs);
+    color: var(--text-subtle);
+    width: 100%;
+    margin-block-end: -6px;
+}
