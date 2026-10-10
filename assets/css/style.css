@@ -4333,3 +4333,17 @@ a.media-row:hover {
     color: var(--primary);
     margin: 0 0 var(--sp-4);
 }
+
+.error-body {
+    max-width: 480px;
+}
+
+.error-body h1 {
+    font-size: var(--fs-2xl);
+    margin: 0 0 10px;
+}
+
+.error-body p {
+    color: var(--text-muted);
+    margin: 0 0 var(--sp-5);
+}
