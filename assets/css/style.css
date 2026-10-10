@@ -3933,3 +3933,16 @@ a.media-row:hover {
 .ft-zip {
     color: var(--text-muted);
 }
+
+.storage-meter {
+    display: flex;
+    height: 8px;
+    border-radius: var(--radius-pill);
+    overflow: hidden;
+    background: var(--surface-3);
+}
+
+.storage-meter > span {
+    display: block;
+    height: 100%;
+}
