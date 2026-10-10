@@ -4148,3 +4148,12 @@ a.media-row:hover {
     color: var(--text-subtle);
     padding-inline-start: 6px;
 }
+
+
+.agenda-day {
+    display: grid;
+    grid-template-columns: 62px 1fr;
+    gap: var(--sp-3);
+    padding: var(--sp-3) 0;
+    border-block-end: var(--border-w) solid var(--border);
+}
