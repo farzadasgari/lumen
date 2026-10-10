@@ -4706,3 +4706,7 @@ a.media-row:hover {
 .rounded-token {
     border-radius: var(--radius-md);
 }
+
+.text-primary-token {
+    color: var(--primary-text) !important;
+}
