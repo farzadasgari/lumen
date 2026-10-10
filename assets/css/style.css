@@ -4776,3 +4776,15 @@ a.media-row:hover {
     border-radius: 2px;
     background: var(--success);
 }
+
+.uptime-bar > span.is-ok {
+    background: var(--success);
+}
+
+.uptime-bar > span.is-warn {
+    background: var(--warning);
+}
+
+.uptime-bar > span.is-down {
+    background: var(--danger);
+}
