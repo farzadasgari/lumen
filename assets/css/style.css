@@ -4259,3 +4259,9 @@ a.media-row:hover {
     grid-template-columns: 1fr 1fr;
     min-height: 100vh;
 }
+
+.auth-split-form {
+    display: grid;
+    place-items: center;
+    padding: var(--sp-6) var(--sp-5);
+}
