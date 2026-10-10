@@ -4394,3 +4394,15 @@ a.media-row:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+
+.demo-code {
+    margin: 0;
+    padding: var(--sp-4);
+    background: var(--surface-inset);
+    border-block-start: var(--border-w) solid var(--border);
+    font-size: var(--fs-sm);
+    line-height: 1.6;
+    overflow-x: auto;
+    color: var(--text-muted);
+    max-height: 320px;
+}
