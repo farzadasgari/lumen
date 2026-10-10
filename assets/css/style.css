@@ -3946,3 +3946,15 @@ a.media-row:hover {
     display: block;
     height: 100%;
 }
+
+.kanban {
+    display: flex;
+    gap: var(--sp-4);
+    align-items: flex-start;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    margin-inline: calc(var(--content-inset, var(--sp-5)) * -1);
+    padding-inline: var(--content-inset, var(--sp-5));
+    padding-block-end: var(--sp-3);
+    scrollbar-width: thin;
+}
