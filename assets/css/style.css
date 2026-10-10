@@ -3830,3 +3830,12 @@ a.media-row:hover {
     justify-content: space-between;
     gap: 8px;
 }
+
+.conv-preview {
+    display: block;
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
