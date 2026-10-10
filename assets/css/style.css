@@ -4323,3 +4323,13 @@ a.media-row:hover {
     padding: var(--sp-6) var(--sp-4);
     text-align: center;
 }
+
+.error-code {
+    font-family: var(--font-mono);
+    font-size: clamp(4.5rem, 3rem + 12vw, 10rem);
+    font-weight: var(--fw-bold);
+    line-height: 0.9;
+    letter-spacing: -0.06em;
+    color: var(--primary);
+    margin: 0 0 var(--sp-4);
+}
