@@ -4027,3 +4027,10 @@ a.media-row:hover {
 .kanban-cards.is-over {
     background: var(--primary-softer);
 }
+
+.kanban-card-title {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+    line-height: 1.4;
+    margin: 6px 0 8px;
+}
