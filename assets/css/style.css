@@ -4568,3 +4568,11 @@ a.media-row:hover {
 .map-pin.is-success {
     fill: var(--success);
 }
+
+.map-pulse {
+    fill: var(--primary);
+    opacity: 0.22;
+    animation: map-pulse 2.4s var(--ease) infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+}
