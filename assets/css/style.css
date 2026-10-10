@@ -4018,3 +4018,12 @@ a.media-row:hover {
     border-color: var(--border-strong);
     box-shadow: var(--shadow-sm);
 }
+
+.kanban-card.is-dragging {
+    opacity: 0.45;
+    cursor: grabbing;
+}
+
+.kanban-cards.is-over {
+    background: var(--primary-softer);
+}
