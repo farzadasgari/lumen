@@ -4053,3 +4053,17 @@ a.media-row:hover {
     grid-template-columns: repeat(7, 1fr);
     border-block-start: var(--border-w) solid var(--border);
 }
+
+.cal-dow {
+    padding: 9px 6px;
+    text-align: center;
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-semibold);
+    color: var(--text-muted);
+    border-inline-end: var(--border-w) solid var(--border);
+    background: var(--surface-2);
+}
+
+.cal-dow:last-child {
+    border-inline-end: none;
+}
