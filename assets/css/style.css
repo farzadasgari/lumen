@@ -3784,3 +3784,9 @@ a.media-row:hover {
 .typing span:nth-child(3) {
     animation-delay: .32s;
 }
+
+.chat-composer {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
