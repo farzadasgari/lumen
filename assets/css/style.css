@@ -3865,7 +3865,7 @@ a.media-row:hover {
     background: var(--surface);
     color: var(--text);
     cursor: pointer;
-    transition: border-color var(--dur-fast) var(--ease), background var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
     position: relative;
 }
 
@@ -4353,4 +4353,12 @@ a.media-row:hover {
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.demo {
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background: var(--surface);
+    margin-block-end: var(--sp-5);
 }
