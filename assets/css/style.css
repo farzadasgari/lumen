@@ -4443,3 +4443,8 @@ a.media-row:hover {
     border-radius: var(--radius-sm);
     border: var(--border-w) solid var(--border);
 }
+
+.token-name {
+    font-family: var(--font-mono);
+    font-size: var(--fs-sm);
+}
