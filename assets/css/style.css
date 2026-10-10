@@ -4503,7 +4503,7 @@ a.media-row:hover {
     background: var(--surface);
     cursor: pointer;
     color: var(--text);
-    transition: border-color var(--dur-fast) var(--ease), background var(--dur-fast) var(--ease);
+    transition: var(--dur-fast) var(--ease);
 }
 
 .icon-cell:hover {
@@ -4554,4 +4554,9 @@ a.media-row:hover {
 .map-land.is-hot {
     fill: var(--primary-soft);
     stroke: var(--primary-edge);
+}
+
+.map-grid-line {
+    stroke: var(--border);
+    stroke-width: 0.4;
 }
