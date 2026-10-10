@@ -4423,3 +4423,16 @@ a.media-row:hover {
 .copy-btn {
     margin-inline-start: auto;
 }
+
+.token-row {
+    display: grid;
+    grid-template-columns: 42px 1fr auto;
+    gap: var(--sp-3);
+    align-items: center;
+    padding: 10px var(--sp-4);
+    border-block-end: var(--border-w) solid var(--border);
+}
+
+.token-row:last-child {
+    border-block-end: none;
+}
