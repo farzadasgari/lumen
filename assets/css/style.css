@@ -4265,3 +4265,15 @@ a.media-row:hover {
     place-items: center;
     padding: var(--sp-6) var(--sp-5);
 }
+
+.auth-aside {
+    position: relative;
+    overflow: hidden;
+    background: var(--surface-2);
+    border-inline-start: var(--border-w) solid var(--border);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--sp-7) var(--sp-6);
+    gap: var(--sp-5);
+}
