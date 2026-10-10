@@ -4661,3 +4661,28 @@ a.media-row:hover {
     font-family: var(--font-mono);
     font-variant-numeric: tabular-nums;
 }
+
+@media print {
+    .sidebar, .navbar-top, .customizer-fab, .no-print, .btn-fab {
+        display: none !important;
+    }
+
+    .app-main {
+        padding: 0 !important;
+    }
+
+    .app-content {
+        padding: 0 !important;
+        max-width: none;
+    }
+
+    .invoice-sheet {
+        border: none;
+        padding: 0;
+        max-width: none;
+    }
+
+    body {
+        background: #fff;
+    }
+}
