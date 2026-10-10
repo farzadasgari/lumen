@@ -4166,3 +4166,10 @@ a.media-row:hover {
     font-size: var(--fs-2xs);
     color: var(--text-subtle);
 }
+
+.agenda-num {
+    font-family: var(--font-mono);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-semibold);
+    line-height: 1.1;
+}
