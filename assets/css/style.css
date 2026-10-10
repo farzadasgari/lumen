@@ -4656,3 +4656,8 @@ a.media-row:hover {
     font-size: var(--fs-lg);
     font-weight: var(--fw-semibold);
 }
+
+.invoice-total-row .v {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+}
