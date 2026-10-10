@@ -3887,3 +3887,13 @@ a.media-row:hover {
     margin-block-end: 10px;
     display: block;
 }
+
+.file-name {
+    display: block;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+}
