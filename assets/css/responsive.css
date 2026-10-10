@@ -1,0 +1,10 @@
+@media (min-width: 1440px) {
+    .app-content {
+        --content-inset: var(--sp-6);
+        padding-inline: var(--content-inset);
+    }
+
+    .grid-auto {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+}
