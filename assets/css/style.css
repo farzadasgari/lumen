@@ -3897,3 +3897,15 @@ a.media-row:hover {
     white-space: nowrap;
     max-width: 100%;
 }
+
+.file-meta {
+    display: block;
+    font-size: var(--fs-2xs);
+    color: var(--text-subtle);
+    font-family: var(--font-mono);
+    margin-block-start: 2px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
