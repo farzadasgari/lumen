@@ -4310,3 +4310,8 @@ a.media-row:hover {
     font-weight: var(--fw-semibold);
     letter-spacing: -0.03em;
 }
+
+.auth-stat-cap {
+    font-size: var(--fs-xs);
+    color: var(--text-muted);
+}
