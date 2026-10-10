@@ -4560,3 +4560,11 @@ a.media-row:hover {
     stroke: var(--border);
     stroke-width: 0.4;
 }
+
+.map-pin.is-danger {
+    fill: var(--danger);
+}
+
+.map-pin.is-success {
+    fill: var(--success);
+}
