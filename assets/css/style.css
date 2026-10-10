@@ -4315,3 +4315,11 @@ a.media-row:hover {
     font-size: var(--fs-xs);
     color: var(--text-muted);
 }
+
+.error-page {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: var(--sp-6) var(--sp-4);
+    text-align: center;
+}
