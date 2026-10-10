@@ -4216,3 +4216,16 @@ a.media-row:hover {
     font-size: var(--fs-md);
     margin: 0;
 }
+
+.auth-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-block-end: var(--sp-5);
+    color: var(--text);
+}
+
+.auth-brand:hover {
+    text-decoration: none;
+    color: var(--text);
+}
