@@ -4136,3 +4136,9 @@ a.media-row:hover {
     color: var(--danger);
     border-inline-start-color: var(--danger);
 }
+
+.cal-event.ev-info {
+    background: var(--info-soft);
+    color: var(--info);
+    border-inline-start-color: var(--info);
+}
