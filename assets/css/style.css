@@ -3978,3 +3978,11 @@ a.media-row:hover {
     flex: 0 0 auto;
     border-block-end: var(--border-w) solid var(--border);
 }
+
+.kanban-col-title {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semibold);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
