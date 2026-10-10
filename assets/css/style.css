@@ -4448,3 +4448,9 @@ a.media-row:hover {
     font-family: var(--font-mono);
     font-size: var(--fs-sm);
 }
+
+.token-value {
+    font-family: var(--font-mono);
+    font-size: var(--fs-xs);
+    color: var(--text-subtle);
+}
