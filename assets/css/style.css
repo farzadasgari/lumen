@@ -3909,3 +3909,27 @@ a.media-row:hover {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.ft-folder {
+    color: var(--warning);
+}
+
+.ft-doc {
+    color: var(--info);
+}
+
+.ft-img {
+    color: var(--success);
+}
+
+.ft-video {
+    color: var(--danger);
+}
+
+.ft-code {
+    color: var(--primary);
+}
+
+.ft-zip {
+    color: var(--text-muted);
+}
