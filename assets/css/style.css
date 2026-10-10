@@ -4184,3 +4184,10 @@ a.media-row:hover {
     flex-direction: column;
     background: var(--bg);
 }
+
+.auth-centered {
+    flex: 1 1 auto;
+    display: grid;
+    place-items: center;
+    padding: var(--sp-5) var(--sp-4);
+}
