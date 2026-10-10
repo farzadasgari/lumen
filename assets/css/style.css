@@ -4419,3 +4419,7 @@ a.media-row:hover {
     width: 100%;
     margin-block-end: -6px;
 }
+
+.copy-btn {
+    margin-inline-start: auto;
+}
