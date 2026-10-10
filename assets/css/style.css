@@ -4619,3 +4619,11 @@ a.media-row:hover {
     max-width: 860px;
     margin-inline: auto;
 }
+
+.invoice-head {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--sp-5);
+    flex-wrap: wrap;
+    margin-block-end: var(--sp-6);
+}
