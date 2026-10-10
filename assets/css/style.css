@@ -4236,3 +4236,19 @@ a.media-row:hover {
     color: var(--text-muted);
     margin-block-start: var(--sp-5);
 }
+
+.auth-divider {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    color: var(--text-subtle);
+    font-size: var(--fs-xs);
+    margin: var(--sp-4) 0;
+}
+
+.auth-divider::before, .auth-divider::after {
+    content: '';
+    flex: 1 1 auto;
+    height: 1px;
+    background: var(--border);
+}
