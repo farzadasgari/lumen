@@ -4576,3 +4576,14 @@ a.media-row:hover {
     transform-box: fill-box;
     transform-origin: center;
 }
+
+@keyframes map-pulse {
+    0% {
+        scale: 0.6;
+        opacity: 0.4;
+    }
+    100% {
+        scale: 2.2;
+        opacity: 0;
+    }
+}
