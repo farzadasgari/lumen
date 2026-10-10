@@ -4004,3 +4004,12 @@ a.media-row:hover {
     overflow-y: auto;
     min-height: 60px;
 }
+
+.kanban-card {
+    background: var(--surface);
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 12px;
+    cursor: grab;
+    transition: border-color var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
+}
