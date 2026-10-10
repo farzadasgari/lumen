@@ -4485,3 +4485,9 @@ a.media-row:hover {
     font-size: var(--fs-xs);
     color: var(--text-subtle);
 }
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+    gap: 10px;
+}
