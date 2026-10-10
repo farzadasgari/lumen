@@ -4191,3 +4191,12 @@ a.media-row:hover {
     place-items: center;
     padding: var(--sp-5) var(--sp-4);
 }
+
+.auth-card {
+    width: 100%;
+    max-width: 424px;
+    background: var(--surface);
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: var(--sp-6);
+}
