@@ -3720,3 +3720,9 @@ a.media-row:hover {
     border-radius: var(--radius-pill);
     border: var(--border-w) solid var(--border);
 }
+
+.chat-msg {
+    display: flex;
+    gap: 9px;
+    max-width: 78%;
+}
