@@ -28,3 +28,25 @@
         grid-template-columns: 200px 290px 1fr;
     }
 }
+
+@media (max-width: 1200px) {
+    .grid-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grid-3 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .search-trigger {
+        max-width: 240px;
+    }
+
+    .app-frame-3 {
+        grid-template-columns: 300px 1fr;
+    }
+
+    .app-frame-3 .app-pane-nav {
+        display: none;
+    }
+}
