@@ -4118,3 +4118,9 @@ a.media-row:hover {
     white-space: nowrap;
     cursor: pointer;
 }
+
+.cal-event.ev-success {
+    background: var(--success-soft);
+    color: var(--success);
+    border-inline-start-color: var(--success);
+}
