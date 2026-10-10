@@ -4090,3 +4090,12 @@ a.media-row:hover {
 .cal-cell.is-out .cal-date {
     color: var(--text-subtle);
 }
+
+.cal-date {
+    font-family: var(--font-mono);
+    font-size: var(--fs-xs);
+    color: var(--text-muted);
+    align-self: flex-start;
+    padding: 2px 5px;
+    border-radius: var(--radius-sm);
+}
