@@ -3726,3 +3726,8 @@ a.media-row:hover {
     gap: 9px;
     max-width: 78%;
 }
+
+.chat-msg.is-mine {
+    margin-inline-start: auto;
+    flex-direction: row-reverse;
+}
