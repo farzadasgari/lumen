@@ -4587,3 +4587,16 @@ a.media-row:hover {
         opacity: 0;
     }
 }
+
+.map-overlay {
+    position: absolute;
+    inset-block-start: 12px;
+    inset-inline-start: 12px;
+    background: var(--surface);
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 10px 12px;
+    box-shadow: var(--shadow-md);
+    font-size: var(--fs-sm);
+    max-width: calc(100% - 24px);
+}
