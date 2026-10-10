@@ -3986,3 +3986,12 @@ a.media-row:hover {
     align-items: center;
     gap: 7px;
 }
+
+.kanban-col-count {
+    font-family: var(--font-mono);
+    font-size: var(--fs-2xs);
+    color: var(--text-subtle);
+    background: var(--surface-3);
+    padding: 1px 6px;
+    border-radius: var(--radius-pill);
+}
