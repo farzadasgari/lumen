@@ -4686,3 +4686,10 @@ a.media-row:hover {
         background: #fff;
     }
 }
+
+.divider-y {
+    width: 1px;
+    align-self: stretch;
+    background: var(--border);
+    margin-inline: var(--sp-1);
+}
