@@ -4799,3 +4799,7 @@ a.media-row:hover {
     border-block-start: var(--border-w) solid var(--border);
     background: var(--surface-2);
 }
+
+.media-row.is-unread {
+    background: var(--primary-softer);
+}
