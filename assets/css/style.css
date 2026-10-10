@@ -3852,3 +3852,31 @@ a.media-row:hover {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: var(--sp-3);
 }
+
+.file-grid > * {
+    min-width: 0;
+}
+
+.file-tile {
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-md);
+    padding: var(--sp-4) var(--sp-3);
+    text-align: center;
+    background: var(--surface);
+    color: var(--text);
+    cursor: pointer;
+    transition: border-color var(--dur-fast) var(--ease), background var(--dur-fast) var(--ease);
+    position: relative;
+}
+
+.file-tile:hover {
+    border-color: var(--primary-edge);
+    background: var(--surface-2);
+    text-decoration: none;
+    color: var(--text);
+}
+
+.file-tile.is-selected {
+    border-color: var(--primary);
+    background: var(--primary-softer);
+}
