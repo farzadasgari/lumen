@@ -4794,3 +4794,8 @@ a.media-row:hover {
         display: none;
     }
 }
+
+.customizer .offcanvas-footer {
+    border-block-start: var(--border-w) solid var(--border);
+    background: var(--surface-2);
+}
