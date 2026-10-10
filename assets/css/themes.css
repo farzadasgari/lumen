@@ -1,3 +1,4 @@
+/*Crimson Theme - imporved readability*/
 :root {
     --crimson-50: #fff7f7;
     --crimson-100: #feecec;
@@ -53,6 +54,7 @@
     --border: #fbe1e1;
 }
 
+/*Purple Theme */
 :root {
     --purple-50: #f9f7ff;
     --purple-100: #f1edff;
@@ -108,6 +110,7 @@
     --border: #e7e1fd;
 }
 
+/*Cyan Theme */
 :root {
     --cyan-50: #f7fcfe;
     --cyan-100: #ecf8fc;
@@ -163,6 +166,7 @@
     --border: #e0f1f7;
 }
 
+/*Navy Theme */
 :root {
     --navy-50: #f7f8ff;
     --navy-100: #ecefff;
@@ -218,6 +222,7 @@
     --border: #e1e4fd;
 }
 
+/*Emerald Theme */
 :root {
     --emerald-50: #f7fcfa;
     --emerald-100: #edf9f2;
@@ -273,6 +278,7 @@
     --border: #e1f2e8;
 }
 
+/*Amber Theme */
 :root {
     --amber-50: #fffaf8;
     --amber-100: #fff4ed;
@@ -328,6 +334,7 @@
     --border: #ffece0;
 }
 
+/*rose Theme */
 :root {
     --rose-50: #fff7f7;
     --rose-100: #feeced;
@@ -383,6 +390,7 @@
     --border: #fae0e2;
 }
 
+/*Indigo Theme */
 :root {
     --indigo-50: #f8f8ff;
     --indigo-100: #efefff;
@@ -438,6 +446,7 @@
     --border: #e4e4fe;
 }
 
+/*Teal Theme */
 :root {
     --teal-50: #f7fcfb;
     --teal-100: #edf9f6;
@@ -493,6 +502,7 @@
     --border: #e1f1ee;
 }
 
+/*Slate Theme */
 :root {
     --slate-50: #f9f9fa;
     --slate-100: #f0f1f4;
