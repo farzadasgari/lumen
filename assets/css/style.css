@@ -3958,3 +3958,14 @@ a.media-row:hover {
     padding-block-end: var(--sp-3);
     scrollbar-width: thin;
 }
+
+.kanban-col {
+    flex: 0 0 296px;
+    width: 296px;
+    background: var(--surface-2);
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+}
