@@ -3969,3 +3969,12 @@ a.media-row:hover {
     flex-direction: column;
     max-height: 100%;
 }
+
+.kanban-col-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px var(--sp-3);
+    flex: 0 0 auto;
+    border-block-end: var(--border-w) solid var(--border);
+}
