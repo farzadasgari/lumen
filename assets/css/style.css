@@ -3742,3 +3742,11 @@ a.media-row:hover {
     border-start-start-radius: var(--radius-sm);
     word-break: break-word;
 }
+
+.chat-msg.is-mine .chat-bubble {
+    background: var(--primary-fill);
+    color: var(--primary-contrast);
+    border-color: var(--primary-fill);
+    border-start-start-radius: var(--radius-lg);
+    border-start-end-radius: var(--radius-sm);
+}
