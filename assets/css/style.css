@@ -3757,3 +3757,14 @@ a.media-row:hover {
     margin-block-start: 4px;
     font-family: var(--font-mono);
 }
+
+.chat-msg.is-mine .chat-meta {
+    text-align: end;
+}
+
+.typing {
+    display: inline-flex;
+    gap: 3px;
+    align-items: center;
+    padding: 11px 14px;
+}
