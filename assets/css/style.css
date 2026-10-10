@@ -4697,3 +4697,8 @@ a.media-row:hover {
 .surface-2 {
     background: var(--surface-2);
 }
+
+.bordered {
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius-md);
+}
