@@ -3768,3 +3768,11 @@ a.media-row:hover {
     align-items: center;
     padding: 11px 14px;
 }
+
+.typing span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--text-subtle);
+    animation: dots 1.2s var(--ease) infinite;
+}
