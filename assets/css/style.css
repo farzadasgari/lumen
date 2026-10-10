@@ -4491,3 +4491,42 @@ a.media-row:hover {
     grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
     gap: 10px;
 }
+
+.icon-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 8px;
+    border-radius: var(--radius-md);
+    border: var(--border-w) solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    color: var(--text);
+    transition: border-color var(--dur-fast) var(--ease), background var(--dur-fast) var(--ease);
+}
+
+.icon-cell:hover {
+    border-color: var(--primary-edge);
+    background: var(--primary-softer);
+    color: var(--primary-text);
+}
+
+.icon-cell i {
+    font-size: 1.375rem;
+}
+
+.icon-cell span {
+    font-size: 10px;
+    font-family: var(--font-mono);
+    color: var(--text-subtle);
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.icon-cell:hover span {
+    color: inherit;
+}
