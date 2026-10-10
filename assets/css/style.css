@@ -4752,3 +4752,13 @@ a.media-row:hover {
 .grid-auto {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
+
+.scroll-x {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+}
+
+.scroll-x::-webkit-scrollbar {
+    height: 6px;
+}
