@@ -4454,3 +4454,13 @@ a.media-row:hover {
     font-size: var(--fs-xs);
     color: var(--text-subtle);
 }
+
+.viewport-frame {
+    border: var(--border-w) solid var(--border-strong);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background: var(--surface);
+    margin-inline: auto;
+    transition: var(--dur-slow) var(--ease);
+    max-width: 100%;
+}
