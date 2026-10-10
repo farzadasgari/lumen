@@ -4600,3 +4600,12 @@ a.media-row:hover {
     font-size: var(--fs-sm);
     max-width: calc(100% - 24px);
 }
+
+.map-controls {
+    position: absolute;
+    inset-block-start: 12px;
+    inset-inline-end: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
