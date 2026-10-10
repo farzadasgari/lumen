@@ -4710,3 +4710,8 @@ a.media-row:hover {
 .text-primary-token {
     color: var(--primary-text) !important;
 }
+
+.bg-primary-token {
+    background: var(--primary-fill) !important;
+    color: var(--primary-contrast) !important;
+}
