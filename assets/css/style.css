@@ -4099,3 +4099,9 @@ a.media-row:hover {
     padding: 2px 5px;
     border-radius: var(--radius-sm);
 }
+
+.cal-cell.is-today .cal-date {
+    background: var(--primary-fill);
+    color: var(--primary-contrast);
+    font-weight: var(--fw-semibold);
+}
