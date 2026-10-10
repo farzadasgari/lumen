@@ -4290,3 +4290,10 @@ a.media-row:hover {
     position: relative;
     z-index: 1;
 }
+
+.auth-quote {
+    font-size: var(--fs-xl);
+    line-height: 1.45;
+    font-weight: var(--fw-medium);
+    max-width: 26ch;
+}
