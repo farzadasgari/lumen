@@ -4530,3 +4530,17 @@ a.media-row:hover {
 .icon-cell:hover span {
     color: inherit;
 }
+
+.map-shell {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius-md);
+    background: var(--surface-2);
+    border: var(--border-w) solid var(--border);
+}
+
+.map-shell svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
