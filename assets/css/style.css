@@ -1810,6 +1810,10 @@ canvas[data-spark] {
     background: var(--danger);
 }
 
+.avatar-status.is-offline::after {
+    background: var(--text-subtle);
+}
+
 .avatar-stack {
     display: flex;
     align-items: center;
