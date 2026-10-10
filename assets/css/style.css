@@ -4472,3 +4472,16 @@ a.media-row:hover {
     height: 620px;
     background: var(--surface);
 }
+
+.viewport-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 9px var(--sp-4);
+    background: var(--surface-2);
+    border-block-end: var(--border-w) solid var(--border);
+    font-family: var(--font-mono);
+    font-size: var(--fs-xs);
+    color: var(--text-subtle);
+}
