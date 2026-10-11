@@ -208,4 +208,20 @@
     .metric-spark {
         height: 30px;
     }
+
+    .search-trigger {
+        display: none;
+    }
+
+    .nav-hide-sm {
+        display: none !important;
+    }
+
+    .navbar-top {
+        padding-inline: var(--sp-2);
+    }
+
+    .app-breadcrumb .crumb-mid {
+        display: none;
+    }
 }
