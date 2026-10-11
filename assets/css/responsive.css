@@ -117,4 +117,9 @@
         min-height: 46px;
         font-size: var(--fs-base);
     }
+
+    .sidebar .nav-sub-link {
+        min-height: 42px;
+        font-size: var(--fs-md);
+    }
 }
