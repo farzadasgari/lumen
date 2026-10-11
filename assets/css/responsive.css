@@ -366,4 +366,20 @@
         display: flex;
         align-items: center;
     }
+
+    .pagination .page-item.pg-num {
+        display: none;
+    }
+
+    .pagination .page-item.pg-current {
+        display: list-item;
+    }
+
+    .pagination .page-link {
+        min-width: 44px;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
