@@ -106,4 +106,10 @@
         justify-content: flex-start !important;
         padding-inline: 10px !important;
     }
+
+    .sidebar .nav-section {
+        margin-block-start: var(--sp-4) !important;
+        padding-block-start: 0 !important;
+        border-block-start: none !important;
+    }
 }
