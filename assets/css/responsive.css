@@ -101,4 +101,9 @@
     .sidebar .workspace-meta, .sidebar .sidebar-user-meta {
         display: revert !important;
     }
+
+    .sidebar .nav-item-link, .sidebar-brand, .workspace-btn, .sidebar-user {
+        justify-content: flex-start !important;
+        padding-inline: 10px !important;
+    }
 }
