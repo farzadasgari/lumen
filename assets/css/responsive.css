@@ -317,4 +317,35 @@
     .customizer.offcanvas-end.showing, .customizer.offcanvas-end.show {
         transform: translateY(0);
     }
+
+    .customizer-fab,
+    [dir="rtl"] .customizer-fab {
+        writing-mode: horizontal-tb;
+        top: auto;
+        bottom: calc(var(--sp-4) + env(safe-area-inset-bottom, 0px));
+        translate: 0;
+        border: var(--border-w) solid var(--border);
+        border-radius: var(--radius-pill);
+        padding: 12px 16px;
+        min-height: 44px;
+    }
+
+    .customizer-fab {
+        right: var(--sp-4);
+        left: auto;
+    }
+
+    [dir="rtl"] .customizer-fab {
+        left: var(--sp-4);
+        right: auto;
+    }
+
+    .swatch-grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 12px;
+    }
+
+    .seg-btn {
+        min-height: 44px;
+    }
 }
