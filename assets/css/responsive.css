@@ -382,4 +382,41 @@
         align-items: center;
         justify-content: center;
     }
+
+    .row > [class*="col-"] {
+        margin-block-end: 0;
+    }
+
+    .form-control, .form-select {
+        font-size: 16px;
+        min-height: 44px;
+    }
+
+    .form-control-sm, .form-select-sm {
+        font-size: 15px;
+        min-height: 38px;
+    }
+
+    .btn {
+        min-height: 42px;
+    }
+
+    .btn-xs {
+        min-height: 30px;
+    }
+
+    .btn-sm {
+        min-height: 36px;
+    }
+
+    .otp-input {
+        width: 100%;
+        min-width: 0;
+        height: 52px;
+        font-size: var(--fs-lg);
+    }
+
+    .otp-group {
+        gap: 6px;
+    }
 }
