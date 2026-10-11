@@ -263,4 +263,18 @@
         align-items: center;
         gap: 10px;
     }
+
+    .modal-dialog:not(.modal-fullscreen) {
+        margin: 0;
+        max-width: none;
+        min-height: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .modal-dialog:not(.modal-fullscreen) .modal-content {
+        border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+        border-block-end: none;
+        max-height: 92vh;
+    }
 }
