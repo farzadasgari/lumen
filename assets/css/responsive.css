@@ -160,4 +160,9 @@
         --content-inset: var(--sp-3);
         padding: var(--sp-3) var(--content-inset) var(--sp-5);
     }
+
+    .grid-4, .grid-3, .grid-2, .grid-auto {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: var(--sp-3);
+    }
 }
