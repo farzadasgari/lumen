@@ -192,4 +192,20 @@
         margin-inline-start: 0;
         width: 100%;
     }
+
+    .metric {
+        min-height: 108px;
+    }
+
+    .metric-body {
+        padding: 14px 14px 8px;
+    }
+
+    .metric-value {
+        font-size: 1.375rem;
+    }
+
+    .metric-spark {
+        height: 30px;
+    }
 }
