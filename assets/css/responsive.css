@@ -281,4 +281,15 @@
     .modal-body {
         overflow-y: auto;
     }
+
+    .modal-footer {
+        position: sticky;
+        bottom: 0;
+        background: var(--surface);
+        padding-block-end: max(var(--sp-3), env(safe-area-inset-bottom));
+    }
+
+    .modal-footer > .btn {
+        flex: 1 1 auto;
+    }
 }
