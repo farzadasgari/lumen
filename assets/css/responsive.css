@@ -122,4 +122,19 @@
         min-height: 42px;
         font-size: var(--fs-md);
     }
+
+    .sidebar-backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: calc(var(--z-sidebar) - 1);
+        background: var(--overlay);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity var(--dur) var(--ease), visibility var(--dur);
+    }
+
+    .sidebar-backdrop.is-open {
+        opacity: 1;
+        visibility: visible;
+    }
 }
