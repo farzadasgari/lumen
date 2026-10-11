@@ -137,4 +137,15 @@
         opacity: 1;
         visibility: visible;
     }
+
+    .app-frame {
+        grid-template-columns: 1fr;
+        height: auto;
+        min-height: 0;
+    }
+
+    .app-frame .app-pane + .app-pane {
+        border-inline-start: none;
+        border-block-start: var(--border-w) solid var(--border);
+    }
 }
