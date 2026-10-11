@@ -309,4 +309,12 @@
         border-start-start-radius: var(--radius-xl);
         border-start-end-radius: var(--radius-xl);
     }
+
+    .customizer.offcanvas-end {
+        transform: translateY(100%);
+    }
+
+    .customizer.offcanvas-end.showing, .customizer.offcanvas-end.show {
+        transform: translateY(0);
+    }
 }
