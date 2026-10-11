@@ -95,4 +95,10 @@
         transform: translateX(0) !important;
         box-shadow: var(--shadow-xl);
     }
+
+    .sidebar .nav-label, .sidebar .brand-text, .sidebar .nav-badge,
+    .sidebar .nav-caret, .sidebar .nav-section-title,
+    .sidebar .workspace-meta, .sidebar .sidebar-user-meta {
+        display: revert !important;
+    }
 }
