@@ -292,4 +292,12 @@
     .modal-footer > .btn {
         flex: 1 1 auto;
     }
+
+    .palette-dialog {
+        margin-top: 0;
+    }
+
+    .palette-dialog .palette {
+        border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    }
 }
