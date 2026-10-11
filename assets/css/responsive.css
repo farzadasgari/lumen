@@ -182,4 +182,14 @@
     .page-head-actions > .btn {
         flex: 1 1 auto;
     }
+
+    .card-header {
+        padding: var(--sp-3) var(--sp-4);
+        min-height: 52px;
+    }
+
+    .card-actions {
+        margin-inline-start: 0;
+        width: 100%;
+    }
 }
