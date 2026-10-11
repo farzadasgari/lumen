@@ -277,4 +277,8 @@
         border-block-end: none;
         max-height: 92vh;
     }
+
+    .modal-body {
+        overflow-y: auto;
+    }
 }
