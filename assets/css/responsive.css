@@ -149,3 +149,15 @@
         border-block-start: var(--border-w) solid var(--border);
     }
 }
+
+@media (max-width: 768px) {
+    .app-content {
+        --content-inset: var(--sp-3);
+        padding: var(--sp-4) var(--content-inset) var(--sp-6);
+    }
+
+    [data-layout="compact"] .app-content {
+        --content-inset: var(--sp-3);
+        padding: var(--sp-3) var(--content-inset) var(--sp-5);
+    }
+}
