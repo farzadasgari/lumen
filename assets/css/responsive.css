@@ -224,4 +224,27 @@
     .app-breadcrumb .crumb-mid {
         display: none;
     }
+
+    .panel-menu {
+        width: calc(100vw - 16px);
+    }
+
+    .dropdown-menu {
+        max-width: calc(100vw - 16px);
+        box-shadow: var(--shadow-lg);
+    }
+
+    .dropdown-menu-mobile-sheet {
+        position: fixed !important;
+        inset: auto 0 0 0 !important;
+        transform: none !important;
+        width: 100% !important;
+        max-width: none !important;
+        border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+        border-block-end: none;
+        max-height: 76vh;
+        overflow-y: auto;
+        padding-block-end: env(safe-area-inset-bottom, 8px);
+        animation: sheet-up var(--dur-slow) var(--ease-out);
+    }
 }
