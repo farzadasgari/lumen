@@ -247,4 +247,13 @@
         padding-block-end: env(safe-area-inset-bottom, 8px);
         animation: sheet-up var(--dur-slow) var(--ease-out);
     }
+
+    @keyframes sheet-up {
+        from {
+            translate: 0 100%;
+        }
+        to {
+            translate: 0 0;
+        }
+    }
 }
