@@ -300,4 +300,13 @@
     .palette-dialog .palette {
         border-radius: var(--radius-xl) var(--radius-xl) 0 0;
     }
+
+    .customizer {
+        width: 100% !important;
+        height: 88vh !important;
+        inset-block-start: auto !important;
+        inset-block-end: 0 !important;
+        border-start-start-radius: var(--radius-xl);
+        border-start-end-radius: var(--radius-xl);
+    }
 }
