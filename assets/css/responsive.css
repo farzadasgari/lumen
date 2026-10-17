@@ -628,4 +628,13 @@
         inset-inline: 0;
         padding-block-end: max(var(--sp-3), env(safe-area-inset-bottom));
     }
+
+    .t-scroll {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .t-scroll .table {
+        min-width: 640px;
+    }
 }
