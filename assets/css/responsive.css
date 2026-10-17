@@ -702,4 +702,18 @@
     .t-stack .num {
         text-align: end !important;
     }
+
+    .t-priority .p-3 {
+        display: none;
+    }
+
+    .t-priority .table {
+        min-width: 0;
+    }
+
+    @media (max-width: 576px) {
+        .t-priority .p-2 {
+            display: none;
+        }
+    }
 }
