@@ -874,3 +874,12 @@
         min-height: 44px;
     }
 }
+
+.row-hover-actions {
+    opacity: 0;
+    transition: opacity var(--dur-fast) var(--ease);
+}
+
+tr:hover .row-hover-actions, tr:focus-within .row-hover-actions {
+    opacity: 1;
+}
