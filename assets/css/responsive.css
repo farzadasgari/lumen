@@ -883,3 +883,38 @@
 tr:hover .row-hover-actions, tr:focus-within .row-hover-actions {
     opacity: 1;
 }
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    .skeleton {
+        background: var(--skeleton-a);
+    }
+
+    .map-pulse, .status.live::before {
+        animation: none !important;
+    }
+
+    .spinner, .btn.is-loading::after {
+        animation: spin 1.6s linear infinite !important;
+    }
+
+    .neon-canvas, .particle-canvas {
+        display: none !important;
+    }
+
+    .linear-loader::after {
+        width: 100%;
+        animation: none !important;
+    }
+
+    .dots span, .typing span {
+        opacity: 0.6;
+        animation: none !important;
+    }
+}
