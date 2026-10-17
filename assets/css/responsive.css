@@ -519,4 +519,13 @@
     .cal-event, .cal-more {
         display: none;
     }
+
+    .cal-cell.has-events::after {
+        content: '';
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: var(--primary);
+        margin-block-start: 2px;
+    }
 }
