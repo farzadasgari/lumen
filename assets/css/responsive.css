@@ -637,4 +637,13 @@
     .t-scroll .table {
         min-width: 640px;
     }
+
+    .t-stack thead {
+        display: none;
+    }
+
+    .t-stack .table, .t-stack tbody, .t-stack tr, .t-stack td {
+        display: block;
+        width: 100%;
+    }
 }
