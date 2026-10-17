@@ -754,3 +754,46 @@
         content: none;
     }
 }
+
+@media (max-width: 576px) {
+    .grid-4, .grid-3, .grid-2, .grid-auto {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-keep-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+    .grid-keep-2 .metric-spark {
+        display: none;
+    }
+
+    .grid-keep-2 .metric {
+        min-height: 96px;
+    }
+
+    .grid-keep-2 .metric-icon {
+        display: none;
+    }
+
+    .file-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .auth-stats {
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--sp-3);
+    }
+
+    .detail-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .invoice-head {
+        gap: var(--sp-4);
+    }
+
+    .error-actions > .btn {
+        flex: 1 1 100%;
+    }
+}
