@@ -598,4 +598,9 @@
         background: transparent;
         max-width: 460px;
     }
+
+    .auth-centered {
+        padding: var(--sp-4) 0;
+        align-items: flex-start;
+    }
 }
