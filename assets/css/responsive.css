@@ -574,4 +574,12 @@
     .file-icon {
         font-size: 1.625rem;
     }
+
+    .invoice-sheet {
+        padding: var(--sp-4);
+    }
+
+    .invoice-totals {
+        max-width: none;
+    }
 }
