@@ -852,3 +852,25 @@
         height: 84px;
     }
 }
+
+@media (hover: none) {
+    .row-hover-actions {
+        opacity: 1 !important;
+    }
+
+    .card-hover:hover {
+        transform: none;
+    }
+
+    .swatch:hover {
+        transform: none;
+    }
+
+    [data-sidebar="hover"] .sidebar:hover {
+        width: var(--sidebar-mini-w);
+    }
+
+    .nav-item-link, .nav-sub-link, .dropdown-item, .mail-folder {
+        min-height: 44px;
+    }
+}
