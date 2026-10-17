@@ -503,4 +503,10 @@
     .kanban-cards {
         max-height: none;
     }
+
+    .cal-cell {
+        min-height: 46px;
+        padding: 3px;
+        align-items: center;
+    }
 }
