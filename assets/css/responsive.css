@@ -797,3 +797,58 @@
         flex: 1 1 100%;
     }
 }
+
+@media (max-width: 400px) {
+    .app-content {
+        --content-inset: 12px;
+        padding-inline: var(--content-inset);
+    }
+
+    :root {
+        --card-pad: 14px;
+    }
+
+    .metric-value {
+        font-size: 1.25rem;
+    }
+
+    .page-title {
+        font-size: 1.3125rem;
+    }
+
+    .file-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .icon-grid {
+        grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+    }
+
+    .kanban-col {
+        flex-basis: 86vw;
+        width: 86vw;
+    }
+
+    .brand-sub {
+        display: none;
+    }
+
+    .chip {
+        font-size: var(--fs-xs);
+        height: 26px;
+    }
+
+    .swatch-grid {
+        gap: 8px;
+    }
+
+    .otp-input {
+        height: 46px;
+        font-size: var(--fs-md);
+    }
+
+    .avatar-2xl {
+        width: 84px;
+        height: 84px;
+    }
+}
