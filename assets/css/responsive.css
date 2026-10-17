@@ -658,4 +658,16 @@
     .t-stack tbody tr:last-child {
         margin-block-end: 0;
     }
+
+    .t-stack td {
+        height: auto !important;
+        padding: 5px 0 !important;
+        border: none !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--sp-4);
+        text-align: start !important;
+        min-height: 30px;
+    }
 }
