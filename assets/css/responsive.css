@@ -419,4 +419,14 @@
     .otp-group {
         gap: 6px;
     }
+
+    .steps {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .step {
+        text-align: start;
+        padding: 8px 0 8px 38px;
+    }
 }
