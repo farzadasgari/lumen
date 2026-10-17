@@ -582,4 +582,20 @@
     .invoice-totals {
         max-width: none;
     }
+
+    .auth-split {
+        grid-template-columns: 1fr;
+    }
+
+    .auth-aside {
+        display: none;
+    }
+
+    .auth-card {
+        border: none;
+        border-radius: 0;
+        padding: var(--sp-5) var(--sp-4);
+        background: transparent;
+        max-width: 460px;
+    }
 }
