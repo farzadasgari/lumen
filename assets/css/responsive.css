@@ -450,4 +450,24 @@
     .step:last-child::after {
         display: none;
     }
+
+    .timeline-item {
+        padding-inline-start: 38px;
+        padding-block-end: var(--sp-4);
+    }
+
+    [dir="rtl"] .timeline-item {
+        padding-inline-start: 0;
+        padding-inline-end: 38px;
+    }
+
+    .timeline-marker {
+        width: 28px;
+        height: 28px;
+        font-size: 0.8125rem;
+    }
+
+    .timeline::before {
+        inset-inline-start: 13px;
+    }
 }
