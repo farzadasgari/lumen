@@ -433,4 +433,21 @@
     [dir="rtl"] .step {
         padding: 8px 38px 8px 0;
     }
+
+    .step::before {
+        inset-inline-start: 0;
+        translate: 0;
+        top: 8px;
+    }
+
+    .step::after {
+        top: 34px;
+        inset-inline-start: 13px;
+        width: 1.5px;
+        height: calc(100% - 34px);
+    }
+
+    .step:last-child::after {
+        display: none;
+    }
 }
