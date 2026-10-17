@@ -603,4 +603,29 @@
         padding: var(--sp-4) 0;
         align-items: flex-start;
     }
+
+    .demo-preview {
+        padding: var(--sp-4);
+    }
+
+    .icon-grid {
+        grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+    }
+
+    .toast-stack {
+        max-width: none;
+        width: 100%;
+        padding: var(--sp-3);
+    }
+
+    .toast-stack[data-pos^="top"] {
+        top: 0;
+        inset-inline: 0;
+    }
+
+    .toast-stack[data-pos^="bottom"] {
+        bottom: 0;
+        inset-inline: 0;
+        padding-block-end: max(var(--sp-3), env(safe-area-inset-bottom));
+    }
 }
