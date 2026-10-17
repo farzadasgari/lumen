@@ -528,4 +528,13 @@
         background: var(--primary);
         margin-block-start: 2px;
     }
+
+    .cal-dow {
+        padding: 7px 2px;
+        font-size: 10px;
+    }
+
+    .cal-agenda-mobile {
+        display: block;
+    }
 }
