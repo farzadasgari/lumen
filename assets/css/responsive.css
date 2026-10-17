@@ -470,4 +470,21 @@
     .timeline::before {
         inset-inline-start: 13px;
     }
+
+    .chart-h-lg, .chart-h-xl {
+        height: 240px;
+    }
+
+    .chart-h-md {
+        height: 210px;
+    }
+
+    .chart-h-sm {
+        height: 160px;
+    }
+
+    .chart-legend {
+        gap: var(--sp-3);
+        font-size: var(--fs-xs);
+    }
 }
