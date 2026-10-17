@@ -487,4 +487,20 @@
         gap: var(--sp-3);
         font-size: var(--fs-xs);
     }
+
+    .kanban {
+        scroll-snap-type: x mandatory;
+        gap: var(--sp-3);
+    }
+
+    .kanban-col {
+        flex: 0 0 82vw;
+        width: 82vw;
+        scroll-snap-align: start;
+        max-width: 320px;
+    }
+
+    .kanban-cards {
+        max-height: none;
+    }
 }
