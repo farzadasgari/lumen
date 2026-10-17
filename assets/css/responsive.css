@@ -744,3 +744,13 @@
         font-size: var(--fs-sm);
     }
 }
+
+@media (min-width: 768px) {
+    .cal-agenda-mobile {
+        display: none;
+    }
+
+    .t-stack td::before {
+        content: none;
+    }
+}
