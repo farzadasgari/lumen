@@ -918,3 +918,13 @@ tr:hover .row-hover-actions, tr:focus-within .row-hover-actions {
         animation: none !important;
     }
 }
+
+@media print {
+    .app-frame {
+        height: auto;
+    }
+
+    .card, .metric {
+        break-inside: avoid;
+    }
+}
