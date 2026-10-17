@@ -537,4 +537,28 @@
     .cal-agenda-mobile {
         display: block;
     }
+
+    .app-frame {
+        position: relative;
+    }
+
+    .app-frame .app-pane-detail {
+        display: none;
+    }
+
+    .app-frame.show-detail .app-pane-list {
+        display: none;
+    }
+
+    .app-frame.show-detail .app-pane-detail {
+        display: flex;
+    }
+
+    .pane-back {
+        display: inline-flex;
+    }
+
+    .chat-msg {
+        max-width: 88%;
+    }
 }
