@@ -678,4 +678,9 @@
         font-weight: var(--fw-medium);
         flex: 0 0 auto;
     }
+
+    .t-stack td:not([data-label])::before {
+        content: none;
+    }
+
 }
