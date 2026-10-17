@@ -683,4 +683,11 @@
         content: none;
     }
 
+    .t-stack td.cell-title {
+        padding-block-end: 10px !important;
+        margin-block-end: 6px;
+        border-block-end: var(--border-w) solid var(--border) !important;
+        font-weight: var(--fw-semibold);
+        font-size: var(--fs-base);
+    }
 }
