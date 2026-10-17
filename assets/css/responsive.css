@@ -670,4 +670,12 @@
         text-align: start !important;
         min-height: 30px;
     }
+
+    .t-stack td::before {
+        content: attr(data-label);
+        font-size: var(--fs-xs);
+        color: var(--text-subtle);
+        font-weight: var(--fw-medium);
+        flex: 0 0 auto;
+    }
 }
