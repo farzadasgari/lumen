@@ -690,4 +690,16 @@
         font-weight: var(--fw-semibold);
         font-size: var(--fs-base);
     }
+
+    .t-stack td.cell-title::before {
+        content: none;
+    }
+
+    .t-stack .col-check, .t-stack .col-actions {
+        width: auto;
+    }
+
+    .t-stack .num {
+        text-align: end !important;
+    }
 }
