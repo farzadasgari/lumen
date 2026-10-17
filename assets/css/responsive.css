@@ -561,4 +561,17 @@
     .chat-msg {
         max-width: 88%;
     }
+
+    .file-grid {
+        grid-template-columns: repeat(auto-fill, minmax(108px, 1fr));
+        gap: var(--sp-2);
+    }
+
+    .file-tile {
+        padding: var(--sp-3) 8px;
+    }
+
+    .file-icon {
+        font-size: 1.625rem;
+    }
 }
