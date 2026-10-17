@@ -509,4 +509,14 @@
         padding: 3px;
         align-items: center;
     }
+
+    .cal-date {
+        font-size: var(--fs-2xs);
+        padding: 3px 5px;
+        align-self: center;
+    }
+
+    .cal-event, .cal-more {
+        display: none;
+    }
 }
